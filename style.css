@@ -298,8 +298,7 @@ a {
   color: #fff;
   position: fixed;
   top: 90%;
-  /* left: 92%; */
-  right: 10%;
+  left: 92%;
 }
 
 .inline-gallery-container {
@@ -315,6 +314,7 @@ a {
 @media (max-width: 576px) {
   .fa-chevron-up {
     right: 30% !important;
+    border: none !important;
   }
   .navbar-toggler {
     position: absolute;
