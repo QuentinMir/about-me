@@ -1,7 +1,8 @@
 @import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Space+Grotesk:wght@600&display=swap");
 
-body {
-  overflow-x: hidden;
+body,
+html {
+  overflow-x: hidden !important;
 }
 
 main {
@@ -316,8 +317,8 @@ a {
     right: 30% !important;
     border: none !important;
   }
-  .navbar-toggler {
+  /* .navbar-toggler {
     position: absolute;
-    right: 30% !important;
-  }
+    right: 20% !important;
+  } */
 }
