@@ -96,6 +96,7 @@ a {
   font-weight: 500;
   color: beige;
   margin: 0px 6px;
+  display: inline-block;
 }
 
 .myButton:hover {
@@ -312,13 +313,18 @@ a {
   cursor: pointer;
 }
 
+.hb {
+  text-decoration: underline !important;
+}
+
+.hb:hover {
+  color: rgb(201, 144, 0) !important;
+  transition-duration: 0.3s;
+}
+
 @media (max-width: 576px) {
   .fa-chevron-up {
     right: 30% !important;
     border: none !important;
   }
-  /* .navbar-toggler {
-    position: absolute;
-    right: 20% !important;
-  } */
 }
