@@ -130,14 +130,14 @@ const inlineGallery2 = lightGallery($lgContainerAI, {
       thumb: "img/menu-cocktail.jpg",
     },
     {
-      src: "img/x-bleu.jpg",
-      responsive: "img/x-bleu.jpg",
-      thumb: "img/x-bleu.jpg",
+      src: "img/bleu.jpg",
+      responsive: "img/bleu.jpg",
+      thumb: "img/bleu.jpg",
     },
     {
-      src: "img/x-couleur.jpg",
-      responsive: "img/x-couleur.jpg",
-      thumb: "img/x-couleur.jpg",
+      src: "img/couleur.jpg",
+      responsive: "img/couleur.jpg",
+      thumb: "img/couleur.jpg",
     },
     {
       src: "img/arctic-Kiwi.jpg",
