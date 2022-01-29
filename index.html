@@ -1,1549 +1,1569 @@
 <!DOCTYPE html>
 <html lang="fr">
-  <head>
-    <meta charset="UTF-8" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<head>
+    <meta charset="UTF-8"/>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
 
     <link
-      rel="stylesheet"
-      href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
-      integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
-      crossorigin="anonymous"
+            rel="stylesheet"
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/css/bootstrap.min.css"
+            integrity="sha384-1BmE4kWBq78iYhFldvKuhfTAU6auU8tT94WrHftjDbrCEXSU1oBoqyl2QvZ6jIW3"
+            crossorigin="anonymous"
     />
 
     <script
-      src="https://kit.fontawesome.com/6b6014b051.js"
-      crossorigin="anonymous"
+            src="https://kit.fontawesome.com/6b6014b051.js"
+            crossorigin="anonymous"
     ></script>
 
-    <link type="text/css" rel="stylesheet" href="lg/lightgallery-bundle.css" />
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-J7NRMPBGR8"></script>
+    <script>
+        window.dataLayer = window.dataLayer || [];
 
-    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet" />
+        function gtag() {
+            dataLayer.push(arguments);
+        }
 
-    <link rel="stylesheet" href="style.css" />
+        gtag('js', new Date());
+        gtag('config', 'G-J7NRMPBGR8');
+    </script>
+
+    <link type="text/css" rel="stylesheet" href="lg/lightgallery-bundle.css"/>
+
+    <link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet"/>
+
+    <link rel="stylesheet" href="style.css"/>
 
     <title>Quentin Miramand</title>
-  </head>
-  <body
-    data-bs-spy="scroll"
-    data-bs-target="#navbar"
-    data-bs-offset="0"
-    tabindex="0"
-  >
-    <header>
-      <nav
-        id="navbar"
-        class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
-      >
+</head>
+<body
+        data-bs-spy="scroll"
+        data-bs-target="#navbar"
+        data-bs-offset="0"
+        tabindex="0"
+>
+<header>
+    <nav
+            id="navbar"
+            class="navbar navbar-expand-lg navbar-dark bg-dark fixed-top"
+    >
         <div class="container">
-          <a class="navbar-brand" href="#herobox">Quentin Miramand</a>
-          <button
-            class="navbar-toggler"
-            type="button"
-            data-bs-toggle="collapse"
-            data-bs-target="#navbarNavAltMarkup"
-            aria-controls="navbarNavAltMarkup"
-            aria-expanded="false"
-            aria-label="Toggle navigation"
-          >
-            <span class="navbar-toggler-icon"></span>
-          </button>
-          <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-            <div
-              class="navbar-nav mx-auto w-100 justify-content-around ms-5 me-5"
+            <a class="navbar-brand" href="#herobox">Quentin Miramand</a>
+            <button
+                    class="navbar-toggler"
+                    type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarNavAltMarkup"
+                    aria-controls="navbarNavAltMarkup"
+                    aria-expanded="false"
+                    aria-label="Toggle navigation"
             >
-              <a class="nav-link active" href="#wdid">Ce que je fais</a>
-              <a class="nav-link" href="#tech">Technologies</a>
-              <a class="nav-link" href="#design">Design</a>
-              <a class="nav-link" href="#project">Projet</a>
-              <a class="nav-link" href="#reals">Réalisations</a>
-              <a class="nav-link" href="#portfolio">Portfolio Design</a>
-              <a class="nav-link" href="#contact">Contact</a>
-              <a
-                class="nav-link"
-                href="https://github.com/QuentinMir"
-                target="_blank"
-                ><i class="fa-brands fa-github"></i
-              ></a>
-              <a
-                class="nav-link"
-                href="https://www.linkedin.com/in/quentin-miramand/"
-                target="_blank"
-                ><i class="fa-brands fa-linkedin"></i
-              ></a>
-            </div>
-          </div>
-        </div>
-      </nav>
-    </header>
-
-    <main>
-      <section id="herobox">
-        <div class="container">
-          <div class="row align-items-center">
-            <div class="col-lg-1"></div>
-            <div class="col-lg-5 col-12 text-center">
-              <img
-                id="pp"
-                src="img/pp.jpg"
-                alt="photo de profil"
-                class="img-fluid"
-                width="350"
-                height="390"
-              />
-            </div>
-            <div class="col-lg-5 col-12 text-center my-5">
-              <h5>Développeur Fullstack web et web mobile</h5>
-              <h1>Quentin Miramand</h1>
-              <p class="my-4">
-                Issue du monde de la communication et du marketing, je suis en
-                reconversion professionnelle. Passionné de design depuis
-                toujours, je me suis formé au web design en autodidacte.
-                Aujourd'hui je me forme au métier de développeur Fullstack au
-                sein de l'école
-                <a href="https://humanbooster.com/" class="hb"> HumanBooster</a
-                >.
-              </p>
-              <p>
-                Je suis actuellement à la recherche d'un stage en agence web en
-                qualité de développeur web - 2 mois de avril à juin 2022. Si mon
-                profil vous intéresse, n'hésitez à me le faire savoir.
-              </p>
-              <div>
-                <!--modal trigger-->
-                <button
-                  type="button"
-                  class="myButton"
-                  data-bs-toggle="modal"
-                  data-bs-target="#showCV"
-                >
-                  Voir CV
-                </button>
-                <!-- modal -->
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
                 <div
-                  class="modal fade"
-                  id="showCV"
-                  tabindex="-1"
-                  aria-labelledby="showCV"
-                  aria-hidden="true"
+                        class="navbar-nav mx-auto w-100 justify-content-around ms-5 me-5"
                 >
-                  <div class="modal-dialog modal-lg">
-                    <div class="modal-content dark-bg">
-                      <div class="modal-body">
-                        <img
-                          src="img/CV_Quentin-Miramand.jpg"
-                          alt="Mon CV"
-                          class="rounded shadow img-fluid"
-                        />
-                      </div>
-                      <div class="modal-footer border-0">
+                    <a class="nav-link active" href="#wdid">Ce que je fais</a>
+                    <a class="nav-link" href="#tech">Technologies</a>
+                    <a class="nav-link" href="#design">Design</a>
+                    <a class="nav-link" href="#project">Projet</a>
+                    <a class="nav-link" href="#reals">Réalisations</a>
+                    <a class="nav-link" href="#portfolio">Portfolio Design</a>
+                    <a class="nav-link" href="#contact">Contact</a>
+                    <a
+                            class="nav-link"
+                            href="https://github.com/QuentinMir"
+                            target="_blank"
+                    ><i class="fa-brands fa-github"></i
+                    ></a>
+                    <a
+                            class="nav-link"
+                            href="https://www.linkedin.com/in/quentin-miramand/"
+                            target="_blank"
+                    ><i class="fa-brands fa-linkedin"></i
+                    ></a>
+                </div>
+            </div>
+        </div>
+    </nav>
+</header>
+
+<main>
+    <section id="herobox">
+        <div class="container">
+            <div class="row align-items-center">
+                <div class="col-lg-1"></div>
+                <div class="col-lg-5 col-12 text-center">
+                    <img
+                            id="pp"
+                            src="img/pp.jpg"
+                            alt="photo de profil"
+                            class="img-fluid"
+                            width="350"
+                            height="390"
+                    />
+                </div>
+                <div class="col-lg-5 col-12 text-center my-5">
+                    <h5>Développeur Fullstack web et web mobile</h5>
+                    <h1>Quentin Miramand</h1>
+                    <p class="my-4">
+                        Issue du monde de la communication et du marketing, je suis en
+                        reconversion professionnelle. Passionné de design depuis
+                        toujours, je me suis formé au web design en autodidacte.
+                        Aujourd'hui je me forme au métier de développeur Fullstack au
+                        sein de l'école
+                        <a href="https://humanbooster.com/" class="hb"> HumanBooster</a
+                        >.
+                    </p>
+                    <p>
+                        Je suis actuellement à la recherche d'un stage en agence web en
+                        qualité de développeur web - 2 mois de avril à juin 2022. Si mon
+                        profil vous intéresse, n'hésitez à me le faire savoir.
+                    </p>
+                    <div>
+                        <!--modal trigger-->
                         <button
-                          type="button"
-                          class="myButton"
-                          data-bs-dismiss="modal"
+                                type="button"
+                                class="myButton"
+                                data-bs-toggle="modal"
+                                data-bs-target="#showCV"
                         >
-                          Fermer
+                            Voir CV
                         </button>
-                      </div>
+                        <!-- modal -->
+                        <div
+                                class="modal fade"
+                                id="showCV"
+                                tabindex="-1"
+                                aria-labelledby="showCV"
+                                aria-hidden="true"
+                        >
+                            <div class="modal-dialog modal-lg">
+                                <div class="modal-content dark-bg">
+                                    <div class="modal-body">
+                                        <img
+                                                src="img/CV_Quentin-Miramand.jpg"
+                                                alt="Mon CV"
+                                                class="rounded shadow img-fluid"
+                                        />
+                                    </div>
+                                    <div class="modal-footer border-0">
+                                        <button
+                                                type="button"
+                                                class="myButton"
+                                                data-bs-dismiss="modal"
+                                        >
+                                            Fermer
+                                        </button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+                        <a
+                                href="dl/CV_Quentin-Miramand.pdf"
+                                download="CV_Quentin-Miramand"
+                                class="myButton"
+                        >Télécharger CV</a
+                        >
+                        <a href="#contact" class="myButton mt-3">Contact</a>
                     </div>
-                  </div>
                 </div>
-
-                <a
-                  href="dl/CV_Quentin-Miramand.pdf"
-                  download="CV_Quentin-Miramand"
-                  class="myButton"
-                  >Télécharger CV</a
-                >
-                <a href="#contact" class="myButton mt-3">Contact</a>
-              </div>
+                <div class="col-lg-1"></div>
             </div>
-            <div class="col-lg-1"></div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section id="wdid">
+    <section id="wdid">
         <div class="container py-3">
-          <h4 class="mb-3 title">Ce que je fais</h4>
-          <div class="row">
-            <div
-              class="col-lg-6 col-12 my-3 containerSub"
-              data-aos="fade-right"
-            >
-              <div class="d-flex align-items-center">
-                <i class="fs-2 fa-solid fa-code"></i>
-                <h5 class="my-0 ms-3 subtitle">Front End</h5>
-              </div>
-              <p class="mt-3">
-                Création d'interfaces dynamiques pour sites web ou applications.
-                <br />
-                Je sais manier les languages HTML, CSS et Javacript, ainsi que
-                les librairies Bootstrap et jQuery. Je suis également capable
-                d'utiliser Angular pour de plus gros projets.
-              </p>
+            <h4 class="mb-3 title">Ce que je fais</h4>
+            <div class="row">
+                <div
+                        class="col-lg-6 col-12 my-3 containerSub"
+                        data-aos="fade-right"
+                >
+                    <div class="d-flex align-items-center">
+                        <i class="fs-2 fa-solid fa-code"></i>
+                        <h5 class="my-0 ms-3 subtitle">Front End</h5>
+                    </div>
+                    <p class="mt-3">
+                        Création d'interfaces dynamiques pour sites web ou applications.
+                        <br/>
+                        Je sais manier les languages HTML, CSS et Javacript, ainsi que
+                        les librairies Bootstrap et jQuery. Je suis également capable
+                        d'utiliser Angular pour de plus gros projets.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 my-3 containerSub" data-aos="fade-left">
+                    <div class="d-flex align-items-center">
+                        <i class="fs-2 fa-solid fa-code-branch"></i>
+                        <h5 class="my-0 ms-3 subtitle">Backend</h5>
+                    </div>
+                    <p class="mt-3">
+                        Mise en place de l'administration et des fonctionalités du site
+                        ou de l'application, relation avec la base de donnée, création
+                        de l'arrière boutique pour les sites ecommerce. J'utilise les
+                        langages PHP et SQL, ainsi que le framework Symfony.
+                    </p>
+                </div>
+                <div
+                        class="col-lg-6 col-12 my-3 containerSub"
+                        data-aos="fade-right"
+                >
+                    <div class="d-flex align-items-center">
+                        <i class="fs-2 fa-solid fa-desktop"></i>
+                        <h5 class="my-0 ms-3 subtitle">Web design</h5>
+                    </div>
+                    <p class="mt-3">
+                        Création du design d'un site web ou d'une application, du
+                        maquettage au prototypage. Je me sers d'Adobe XD pour mes
+                        créations.
+                    </p>
+                </div>
+                <div class="col-lg-6 col-12 my-3 containerSub" data-aos="fade-left">
+                    <div class="d-flex align-items-center">
+                        <i class="fs-2 fa-solid fa-palette"></i>
+                        <h5 class="my-0 ms-3 subtitle">Design</h5>
+                    </div>
+                    <p class="mt-3">
+                        Mes études et ma carrière dans la communication m'ont poussées à
+                        développer des compétences de design. Je peux designer aussi
+                        bien des éléments pour l'impression que pour le digital. Je suis
+                        aussi capable de faire de l'édition de vidéo.
+                    </p>
+                </div>
             </div>
-            <div class="col-lg-6 col-12 my-3 containerSub" data-aos="fade-left">
-              <div class="d-flex align-items-center">
-                <i class="fs-2 fa-solid fa-code-branch"></i>
-                <h5 class="my-0 ms-3 subtitle">Backend</h5>
-              </div>
-              <p class="mt-3">
-                Mise en place de l'administration et des fonctionalités du site
-                ou de l'application, relation avec la base de donnée, création
-                de l'arrière boutique pour les sites ecommerce. J'utilise les
-                langages PHP et SQL, ainsi que le framework Symfony.
-              </p>
-            </div>
-            <div
-              class="col-lg-6 col-12 my-3 containerSub"
-              data-aos="fade-right"
-            >
-              <div class="d-flex align-items-center">
-                <i class="fs-2 fa-solid fa-desktop"></i>
-                <h5 class="my-0 ms-3 subtitle">Web design</h5>
-              </div>
-              <p class="mt-3">
-                Création du design d'un site web ou d'une application, du
-                maquettage au prototypage. Je me sers d'Adobe XD pour mes
-                créations.
-              </p>
-            </div>
-            <div class="col-lg-6 col-12 my-3 containerSub" data-aos="fade-left">
-              <div class="d-flex align-items-center">
-                <i class="fs-2 fa-solid fa-palette"></i>
-                <h5 class="my-0 ms-3 subtitle">Design</h5>
-              </div>
-              <p class="mt-3">
-                Mes études et ma carrière dans la communication m'ont poussées à
-                développer des compétences de design. Je peux designer aussi
-                bien des éléments pour l'impression que pour le digital. Je suis
-                aussi capable de faire de l'édition de vidéo.
-              </p>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section id="tech">
+    <section id="tech">
         <div class="container">
-          <h4 class="my-3 title">Technologies</h4>
-          <div class="row">
-            <div
-              class="col-lg-6 col-12 mt-4"
-              data-aos="zoom-in-up"
-              data-aos-delay="100"
-            >
-              <div class="d-flex justify-content-center flex-wrap mb-5">
+            <h4 class="my-3 title">Technologies</h4>
+            <div class="row">
                 <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="html5"
+                        class="col-lg-6 col-12 mt-4"
+                        data-aos="zoom-in-up"
+                        data-aos-delay="100"
                 >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1em"
-                    height="1em"
-                    style="
+                    <div class="d-flex justify-content-center flex-wrap mb-5">
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="html5"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 32 32"
-                    class="iconify"
-                    data-icon="vscode-icons:file-type-html"
-                    data-inline="false"
-                  >
-                    <path
-                      fill="#e44f26"
-                      d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30L5.902 27.201z"
-                    ></path>
-                    <path
-                      fill="#f1662a"
-                      d="M16 27.858l8.17-2.265l1.922-21.532H16v23.797z"
-                    ></path>
-                    <path
-                      fill="#ebebeb"
-                      d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16v-3.091z"
-                    ></path>
-                    <path
-                      fill="#ebebeb"
-                      d="M16 21.434l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004v-3.216z"
-                    ></path>
-                    <path
-                      fill="#fff"
-                      d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83H15.989z"
-                    ></path>
-                    <path
-                      fill="#fff"
-                      d="M15.989 7.151V10.242h7.466l.062-.694l.141-1.567l.074-.83h-7.743z"
-                    ></path>
-                  </svg>
-                </div>
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 32 32"
+                                    class="iconify"
+                                    data-icon="vscode-icons:file-type-html"
+                                    data-inline="false"
+                            >
+                                <path
+                                        fill="#e44f26"
+                                        d="M5.902 27.201L3.655 2h24.69l-2.25 25.197L15.985 30L5.902 27.201z"
+                                ></path>
+                                <path
+                                        fill="#f1662a"
+                                        d="M16 27.858l8.17-2.265l1.922-21.532H16v23.797z"
+                                ></path>
+                                <path
+                                        fill="#ebebeb"
+                                        d="M16 13.407h-4.09l-.282-3.165H16V7.151H8.25l.074.83l.759 8.517H16v-3.091z"
+                                ></path>
+                                <path
+                                        fill="#ebebeb"
+                                        d="M16 21.434l-.014.004l-3.442-.929l-.22-2.465H9.221l.433 4.852l6.332 1.758l.014-.004v-3.216z"
+                                ></path>
+                                <path
+                                        fill="#fff"
+                                        d="M15.989 13.407v3.091h3.806l-.358 4.009l-3.448.93v3.216l6.337-1.757l.046-.522l.726-8.137l.076-.83H15.989z"
+                                ></path>
+                                <path
+                                        fill="#fff"
+                                        d="M15.989 7.151V10.242h7.466l.062-.694l.141-1.567l.074-.83h-7.743z"
+                                ></path>
+                            </svg>
+                        </div>
 
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="css3"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1em"
-                    height="1em"
-                    style="
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="css3"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 32 32"
-                    class="iconify"
-                    data-icon="vscode-icons:file-type-css"
-                    data-inline="false"
-                  >
-                    <path
-                      fill="#1572b6"
-                      d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30L5.902 27.201z"
-                    ></path>
-                    <path
-                      fill="#33a9dc"
-                      d="M16 27.858l8.17-2.265l1.922-21.532H16v23.797z"
-                    ></path>
-                    <path
-                      fill="#fff"
-                      d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829l-.759 8.518H16v-3.091z"
-                    ></path>
-                    <path
-                      fill="#ebebeb"
-                      d="M16.019 21.218l-.014.004l-3.442-.93l-.22-2.465H9.24l.433 4.853l6.331 1.758l.015-.004v-3.216z"
-                    ></path>
-                    <path
-                      fill="#fff"
-                      d="M19.827 16.151l-.372 4.139l-3.447.93v3.216l6.336-1.756l.047-.522l.537-6.007h-3.101z"
-                    ></path>
-                    <path
-                      fill="#ebebeb"
-                      d="M16.011 6.935v3.091H8.545l-.062-.695l-.141-1.567l-.074-.829h7.743z"
-                    ></path>
-                    <path
-                      fill="#ebebeb"
-                      d="M16 13.191v3.091H12.601l-.062-.695l-.14-1.567l-.074-.829H16z"
-                    ></path>
-                  </svg>
-                </div>
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="sass"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1.34em"
-                    height="1em"
-                    style="
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 32 32"
+                                    class="iconify"
+                                    data-icon="vscode-icons:file-type-css"
+                                    data-inline="false"
+                            >
+                                <path
+                                        fill="#1572b6"
+                                        d="M5.902 27.201L3.656 2h24.688l-2.249 25.197L15.985 30L5.902 27.201z"
+                                ></path>
+                                <path
+                                        fill="#33a9dc"
+                                        d="M16 27.858l8.17-2.265l1.922-21.532H16v23.797z"
+                                ></path>
+                                <path
+                                        fill="#fff"
+                                        d="M16 13.191h4.09l.282-3.165H16V6.935h7.75l-.074.829l-.759 8.518H16v-3.091z"
+                                ></path>
+                                <path
+                                        fill="#ebebeb"
+                                        d="M16.019 21.218l-.014.004l-3.442-.93l-.22-2.465H9.24l.433 4.853l6.331 1.758l.015-.004v-3.216z"
+                                ></path>
+                                <path
+                                        fill="#fff"
+                                        d="M19.827 16.151l-.372 4.139l-3.447.93v3.216l6.336-1.756l.047-.522l.537-6.007h-3.101z"
+                                ></path>
+                                <path
+                                        fill="#ebebeb"
+                                        d="M16.011 6.935v3.091H8.545l-.062-.695l-.141-1.567l-.074-.829h7.743z"
+                                ></path>
+                                <path
+                                        fill="#ebebeb"
+                                        d="M16 13.191v3.091H12.601l-.062-.695l-.14-1.567l-.074-.829H16z"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="sass"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1.34em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 256 192"
-                    class="iconify"
-                    data-icon="logos:sass"
-                    data-inline="false"
-                  >
-                    <path
-                      d="M220.281 110.514c-8.906.046-16.647 2.191-23.128 5.362c-2.379-4.71-4.757-8.906-5.176-11.984c-.467-3.59-1.026-5.782-.467-10.072c.56-4.29 3.078-10.399 3.031-10.865c-.046-.466-.56-2.658-5.689-2.704c-5.129-.047-9.559.979-10.072 2.331c-.513 1.352-1.492 4.43-2.145 7.6c-.886 4.664-10.258 21.31-15.62 30.03c-1.726-3.403-3.218-6.388-3.545-8.766c-.466-3.59-1.026-5.782-.466-10.072c.56-4.29 3.078-10.398 3.031-10.865c-.047-.466-.56-2.658-5.689-2.704c-5.13-.047-9.56.979-10.072 2.331c-.513 1.353-1.073 4.523-2.145 7.601c-1.073 3.078-13.523 30.87-16.787 38.05a214.726 214.726 0 0 1-4.15 8.627s-.047.14-.187.373a117.773 117.773 0 0 1-1.398 2.658v.046c-.7 1.26-1.446 2.425-1.819 2.425c-.28 0-.793-3.357.093-7.927c1.865-9.652 6.295-24.667 6.249-25.18c0-.28.839-2.891-2.891-4.244c-3.638-1.352-4.943.886-5.27.886c-.326 0-.56.793-.56.793s4.058-16.88-7.74-16.88c-7.367 0-17.533 8.067-22.569 15.341a6269.96 6269.96 0 0 0-17.16 9.373c-2.75 1.539-5.595 3.078-8.253 4.523c-.187-.186-.373-.42-.56-.606c-14.269-15.248-40.661-26.02-39.542-46.49c.42-7.461 2.984-27.046 50.687-50.827c39.262-19.352 70.505-13.99 75.914-2.099c7.74 16.974-16.74 48.496-57.309 53.065c-15.481 1.726-23.595-4.243-25.646-6.481c-2.145-2.332-2.472-2.472-3.265-2.005c-1.305.7-.466 2.798 0 4.01c1.213 3.17 6.202 8.766 14.642 11.518c7.461 2.424 25.6 3.777 47.563-4.71c24.574-9.513 43.786-35.952 38.144-58.101c-5.643-22.476-42.947-29.89-78.246-17.347C61.086 13.99 38.33 25.74 21.963 41.035C2.518 59.22-.56 75.028.699 81.65c4.524 23.501 36.932 38.796 49.895 50.127c-.653.373-1.26.7-1.772.98c-6.482 3.217-31.196 16.133-37.351 29.796c-6.994 15.481 1.12 26.58 6.482 28.071c16.647 4.617 33.76-3.683 42.946-17.393c9.186-13.709 8.067-31.522 3.824-39.682c-.047-.093-.093-.187-.187-.28c1.679-.979 3.404-2.005 5.083-2.984a247.933 247.933 0 0 1 9.373-5.27c-1.586 4.337-2.752 9.513-3.311 16.974c-.7 8.767 2.89 20.144 7.6 24.62c2.099 1.96 4.57 2.006 6.156 2.006c5.502 0 7.974-4.57 10.725-9.979c3.357-6.621 6.388-14.315 6.388-14.315s-3.777 20.797 6.482 20.797c3.73 0 7.507-4.85 9.186-7.321v.046s.093-.14.28-.466c.373-.606.606-.98.606-.98v-.092c1.492-2.612 4.85-8.534 9.839-18.373c6.435-12.683 12.637-28.537 12.637-28.537s.56 3.87 2.471 10.305c1.12 3.777 3.45 7.927 5.316 11.937c-1.492 2.099-2.425 3.264-2.425 3.264l.047.047c-1.213 1.585-2.518 3.31-3.964 4.99c-5.083 6.061-11.144 13.01-11.984 15.014c-.98 2.378-.746 4.104 1.12 5.503c1.352 1.026 3.776 1.165 6.248 1.026c4.57-.327 7.787-1.446 9.372-2.145c2.472-.886 5.363-2.239 8.067-4.244c4.99-3.684 8.02-8.953 7.741-15.9c-.14-3.824-1.399-7.648-2.938-11.239c.467-.652.886-1.305 1.353-1.958c7.88-11.518 13.989-24.155 13.989-24.155s.56 3.87 2.471 10.306c.933 3.264 2.845 6.808 4.523 10.258c-7.414 6.016-11.984 13.01-13.616 17.58c-2.937 8.487-.653 12.31 3.684 13.196c1.958.42 4.756-.513 6.808-1.399c2.611-.839 5.689-2.284 8.627-4.43c4.99-3.683 9.792-8.813 9.512-15.76c-.14-3.171-.979-6.296-2.145-9.327c6.295-2.61 14.409-4.056 24.76-2.844c22.197 2.611 26.58 16.46 25.74 22.29c-.839 5.828-5.502 8.999-7.04 9.978c-1.54.98-2.052 1.306-1.912 2.005c.186 1.026.932.98 2.238.793c1.819-.326 11.658-4.71 12.077-15.435c.7-13.709-12.357-28.677-35.439-28.537zM49.055 168.242c-7.368 8.02-17.626 11.051-22.056 8.487c-4.756-2.752-2.891-14.596 6.155-23.082c5.502-5.176 12.59-9.98 17.3-12.917c1.072-.653 2.658-1.585 4.57-2.751c.326-.187.513-.28.513-.28l1.119-.7c3.31 12.124.14 22.803-7.601 31.243zm53.625-36.465c-2.565 6.249-7.927 22.243-11.191 21.357c-2.798-.746-4.524-12.87-.56-24.854c2.005-6.016 6.248-13.197 8.72-15.994c4.01-4.477 8.44-5.97 9.512-4.15c1.353 2.378-4.896 19.724-6.481 23.641zm44.252 21.17c-1.073.56-2.098.933-2.565.653c-.326-.187.467-.933.467-.933s5.549-5.968 7.74-8.673c1.26-1.585 2.751-3.45 4.337-5.549v.606c0 7.135-6.902 11.938-9.98 13.896zm34.133-7.787c-.793-.56-.653-2.425 2.005-8.254c1.026-2.285 3.45-6.108 7.601-9.792c.466 1.492.793 2.938.746 4.29c-.047 9-6.481 12.357-10.352 13.756z"
-                      fill="#CD6799"
-                    ></path>
-                  </svg>
-                </div>
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="JavaScript"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1em"
-                    height="1em"
-                    style="
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 256 192"
+                                    class="iconify"
+                                    data-icon="logos:sass"
+                                    data-inline="false"
+                            >
+                                <path
+                                        d="M220.281 110.514c-8.906.046-16.647 2.191-23.128 5.362c-2.379-4.71-4.757-8.906-5.176-11.984c-.467-3.59-1.026-5.782-.467-10.072c.56-4.29 3.078-10.399 3.031-10.865c-.046-.466-.56-2.658-5.689-2.704c-5.129-.047-9.559.979-10.072 2.331c-.513 1.352-1.492 4.43-2.145 7.6c-.886 4.664-10.258 21.31-15.62 30.03c-1.726-3.403-3.218-6.388-3.545-8.766c-.466-3.59-1.026-5.782-.466-10.072c.56-4.29 3.078-10.398 3.031-10.865c-.047-.466-.56-2.658-5.689-2.704c-5.13-.047-9.56.979-10.072 2.331c-.513 1.353-1.073 4.523-2.145 7.601c-1.073 3.078-13.523 30.87-16.787 38.05a214.726 214.726 0 0 1-4.15 8.627s-.047.14-.187.373a117.773 117.773 0 0 1-1.398 2.658v.046c-.7 1.26-1.446 2.425-1.819 2.425c-.28 0-.793-3.357.093-7.927c1.865-9.652 6.295-24.667 6.249-25.18c0-.28.839-2.891-2.891-4.244c-3.638-1.352-4.943.886-5.27.886c-.326 0-.56.793-.56.793s4.058-16.88-7.74-16.88c-7.367 0-17.533 8.067-22.569 15.341a6269.96 6269.96 0 0 0-17.16 9.373c-2.75 1.539-5.595 3.078-8.253 4.523c-.187-.186-.373-.42-.56-.606c-14.269-15.248-40.661-26.02-39.542-46.49c.42-7.461 2.984-27.046 50.687-50.827c39.262-19.352 70.505-13.99 75.914-2.099c7.74 16.974-16.74 48.496-57.309 53.065c-15.481 1.726-23.595-4.243-25.646-6.481c-2.145-2.332-2.472-2.472-3.265-2.005c-1.305.7-.466 2.798 0 4.01c1.213 3.17 6.202 8.766 14.642 11.518c7.461 2.424 25.6 3.777 47.563-4.71c24.574-9.513 43.786-35.952 38.144-58.101c-5.643-22.476-42.947-29.89-78.246-17.347C61.086 13.99 38.33 25.74 21.963 41.035C2.518 59.22-.56 75.028.699 81.65c4.524 23.501 36.932 38.796 49.895 50.127c-.653.373-1.26.7-1.772.98c-6.482 3.217-31.196 16.133-37.351 29.796c-6.994 15.481 1.12 26.58 6.482 28.071c16.647 4.617 33.76-3.683 42.946-17.393c9.186-13.709 8.067-31.522 3.824-39.682c-.047-.093-.093-.187-.187-.28c1.679-.979 3.404-2.005 5.083-2.984a247.933 247.933 0 0 1 9.373-5.27c-1.586 4.337-2.752 9.513-3.311 16.974c-.7 8.767 2.89 20.144 7.6 24.62c2.099 1.96 4.57 2.006 6.156 2.006c5.502 0 7.974-4.57 10.725-9.979c3.357-6.621 6.388-14.315 6.388-14.315s-3.777 20.797 6.482 20.797c3.73 0 7.507-4.85 9.186-7.321v.046s.093-.14.28-.466c.373-.606.606-.98.606-.98v-.092c1.492-2.612 4.85-8.534 9.839-18.373c6.435-12.683 12.637-28.537 12.637-28.537s.56 3.87 2.471 10.305c1.12 3.777 3.45 7.927 5.316 11.937c-1.492 2.099-2.425 3.264-2.425 3.264l.047.047c-1.213 1.585-2.518 3.31-3.964 4.99c-5.083 6.061-11.144 13.01-11.984 15.014c-.98 2.378-.746 4.104 1.12 5.503c1.352 1.026 3.776 1.165 6.248 1.026c4.57-.327 7.787-1.446 9.372-2.145c2.472-.886 5.363-2.239 8.067-4.244c4.99-3.684 8.02-8.953 7.741-15.9c-.14-3.824-1.399-7.648-2.938-11.239c.467-.652.886-1.305 1.353-1.958c7.88-11.518 13.989-24.155 13.989-24.155s.56 3.87 2.471 10.306c.933 3.264 2.845 6.808 4.523 10.258c-7.414 6.016-11.984 13.01-13.616 17.58c-2.937 8.487-.653 12.31 3.684 13.196c1.958.42 4.756-.513 6.808-1.399c2.611-.839 5.689-2.284 8.627-4.43c4.99-3.683 9.792-8.813 9.512-15.76c-.14-3.171-.979-6.296-2.145-9.327c6.295-2.61 14.409-4.056 24.76-2.844c22.197 2.611 26.58 16.46 25.74 22.29c-.839 5.828-5.502 8.999-7.04 9.978c-1.54.98-2.052 1.306-1.912 2.005c.186 1.026.932.98 2.238.793c1.819-.326 11.658-4.71 12.077-15.435c.7-13.709-12.357-28.677-35.439-28.537zM49.055 168.242c-7.368 8.02-17.626 11.051-22.056 8.487c-4.756-2.752-2.891-14.596 6.155-23.082c5.502-5.176 12.59-9.98 17.3-12.917c1.072-.653 2.658-1.585 4.57-2.751c.326-.187.513-.28.513-.28l1.119-.7c3.31 12.124.14 22.803-7.601 31.243zm53.625-36.465c-2.565 6.249-7.927 22.243-11.191 21.357c-2.798-.746-4.524-12.87-.56-24.854c2.005-6.016 6.248-13.197 8.72-15.994c4.01-4.477 8.44-5.97 9.512-4.15c1.353 2.378-4.896 19.724-6.481 23.641zm44.252 21.17c-1.073.56-2.098.933-2.565.653c-.326-.187.467-.933.467-.933s5.549-5.968 7.74-8.673c1.26-1.585 2.751-3.45 4.337-5.549v.606c0 7.135-6.902 11.938-9.98 13.896zm34.133-7.787c-.793-.56-.653-2.425 2.005-8.254c1.026-2.285 3.45-6.108 7.601-9.792c.466 1.492.793 2.938.746 4.29c-.047 9-6.481 12.357-10.352 13.756z"
+                                        fill="#CD6799"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="JavaScript"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 256 256"
-                    class="iconify"
-                    data-icon="logos:javascript"
-                    data-inline="false"
-                  >
-                    <path d="M0 0h256v256H0V0z" fill="#F7DF1E"></path>
-                    <path
-                      d="M67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371c7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259c-19.245 0-30.416-9.967-36.087-21.996"
-                      fill="#000"
-                    ></path>
-                    <path
-                      d="M152.381 211.354l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607c9.969 0 16.325-4.984 16.325-11.858c0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257c0-18.044 13.747-31.792 35.228-31.792c15.294 0 26.292 5.328 34.196 19.247L210.29 147.43c-4.125-7.389-8.591-10.31-15.465-10.31c-7.046 0-11.514 4.468-11.514 10.31c0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804c0 21.654-17.012 33.51-39.867 33.51c-22.339 0-36.774-10.654-43.819-24.574"
-                      fill="#000"
-                    ></path>
-                  </svg>
-                </div>
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="TypeScript"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1em"
-                    height="1em"
-                    style="
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 256 256"
+                                    class="iconify"
+                                    data-icon="logos:javascript"
+                                    data-inline="false"
+                            >
+                                <path d="M0 0h256v256H0V0z" fill="#F7DF1E"></path>
+                                <path
+                                        d="M67.312 213.932l19.59-11.856c3.78 6.701 7.218 12.371 15.465 12.371c7.905 0 12.89-3.092 12.89-15.12v-81.798h24.057v82.138c0 24.917-14.606 36.259-35.916 36.259c-19.245 0-30.416-9.967-36.087-21.996"
+                                        fill="#000"
+                                ></path>
+                                <path
+                                        d="M152.381 211.354l19.588-11.341c5.157 8.421 11.859 14.607 23.715 14.607c9.969 0 16.325-4.984 16.325-11.858c0-8.248-6.53-11.17-17.528-15.98l-6.013-2.58c-17.357-7.387-28.87-16.667-28.87-36.257c0-18.044 13.747-31.792 35.228-31.792c15.294 0 26.292 5.328 34.196 19.247L210.29 147.43c-4.125-7.389-8.591-10.31-15.465-10.31c-7.046 0-11.514 4.468-11.514 10.31c0 7.217 4.468 10.14 14.778 14.608l6.014 2.577c20.45 8.765 31.963 17.7 31.963 37.804c0 21.654-17.012 33.51-39.867 33.51c-22.339 0-36.774-10.654-43.819-24.574"
+                                        fill="#000"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="TypeScript"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 256 256"
-                    class="iconify"
-                    data-icon="logos:typescript-icon"
-                    data-inline="false"
-                  >
-                    <path fill="#007ACC" d="M0 128v128h256V0H0z"></path>
-                    <path
-                      d="M56.611 128.85l-.081 10.483h33.32v94.68H113.42v-94.68h33.32v-10.28c0-5.69-.122-10.444-.284-10.566c-.122-.162-20.399-.244-44.983-.203l-44.739.122l-.122 10.443z"
-                      fill="#FFF"
-                    ></path>
-                    <path
-                      d="M206.567 118.108c6.501 1.626 11.459 4.51 16.01 9.224c2.357 2.52 5.851 7.112 6.136 8.209c.08.325-11.053 7.802-17.798 11.987c-.244.163-1.22-.894-2.317-2.52c-3.291-4.794-6.745-6.867-12.028-7.232c-7.76-.529-12.759 3.535-12.718 10.32c0 1.992.284 3.17 1.097 4.796c1.707 3.535 4.876 5.648 14.832 9.955c18.326 7.884 26.168 13.085 31.045 20.48c5.445 8.25 6.664 21.415 2.966 31.208c-4.063 10.646-14.14 17.88-28.323 20.277c-4.388.772-14.79.65-19.504-.203c-10.28-1.829-20.033-6.908-26.047-13.572c-2.357-2.601-6.949-9.387-6.664-9.875c.122-.162 1.178-.812 2.356-1.503c1.138-.65 5.446-3.13 9.509-5.486l7.355-4.267l1.544 2.276c2.154 3.291 6.867 7.802 9.712 9.305c8.167 4.308 19.383 3.698 24.909-1.26c2.357-2.153 3.332-4.388 3.332-7.68c0-2.966-.366-4.266-1.91-6.5c-1.99-2.845-6.054-5.243-17.595-10.24c-13.206-5.69-18.895-9.225-24.096-14.833c-3.007-3.25-5.852-8.452-7.03-12.8c-.975-3.616-1.22-12.678-.447-16.335c2.723-12.76 12.353-21.658 26.25-24.3c4.51-.853 14.994-.528 19.424.57z"
-                      fill="#FFF"
-                    ></path>
-                  </svg>
-                </div>
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 256 256"
+                                    class="iconify"
+                                    data-icon="logos:typescript-icon"
+                                    data-inline="false"
+                            >
+                                <path fill="#007ACC" d="M0 128v128h256V0H0z"></path>
+                                <path
+                                        d="M56.611 128.85l-.081 10.483h33.32v94.68H113.42v-94.68h33.32v-10.28c0-5.69-.122-10.444-.284-10.566c-.122-.162-20.399-.244-44.983-.203l-44.739.122l-.122 10.443z"
+                                        fill="#FFF"
+                                ></path>
+                                <path
+                                        d="M206.567 118.108c6.501 1.626 11.459 4.51 16.01 9.224c2.357 2.52 5.851 7.112 6.136 8.209c.08.325-11.053 7.802-17.798 11.987c-.244.163-1.22-.894-2.317-2.52c-3.291-4.794-6.745-6.867-12.028-7.232c-7.76-.529-12.759 3.535-12.718 10.32c0 1.992.284 3.17 1.097 4.796c1.707 3.535 4.876 5.648 14.832 9.955c18.326 7.884 26.168 13.085 31.045 20.48c5.445 8.25 6.664 21.415 2.966 31.208c-4.063 10.646-14.14 17.88-28.323 20.277c-4.388.772-14.79.65-19.504-.203c-10.28-1.829-20.033-6.908-26.047-13.572c-2.357-2.601-6.949-9.387-6.664-9.875c.122-.162 1.178-.812 2.356-1.503c1.138-.65 5.446-3.13 9.509-5.486l7.355-4.267l1.544 2.276c2.154 3.291 6.867 7.802 9.712 9.305c8.167 4.308 19.383 3.698 24.909-1.26c2.357-2.153 3.332-4.388 3.332-7.68c0-2.966-.366-4.266-1.91-6.5c-1.99-2.845-6.054-5.243-17.595-10.24c-13.206-5.69-18.895-9.225-24.096-14.833c-3.007-3.25-5.852-8.452-7.03-12.8c-.975-3.616-1.22-12.678-.447-16.335c2.723-12.76 12.353-21.658 26.25-24.3c4.51-.853 14.994-.528 19.424.57z"
+                                        fill="#FFF"
+                                ></path>
+                            </svg>
+                        </div>
 
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="Angular"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1em"
-                    height="1em"
-                    style="
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="Angular"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 32 32"
-                    class="iconify"
-                    data-icon="vscode-icons:file-type-Angular"
-                    data-inline="false"
-                  >
-                    <polygon
-                      points="16 2 16 2 16 2 2.966 6.648 4.954 23.882 16 30 16 30 16 30 27.046 23.882 29.034 6.648 16 2"
-                      style="fill: #dd0031"
-                    />
-                    <polygon
-                      points="16 2 16 5.108 16 5.094 16 19.276 16 19.276 16 30 16 30 27.046 23.882 29.034 6.648 16 2"
-                      style="fill: #c3002f"
-                    />
-                    <path
-                      d="M16,5.094,7.852,23.364H10.89l1.638-4.088h6.916l1.638,4.088H24.12L16,5.094Zm2.38,11.662H13.62L16,11.03Z"
-                      style="fill: #fff"
-                    />
-                  </svg>
-                </div>
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 32 32"
+                                    class="iconify"
+                                    data-icon="vscode-icons:file-type-Angular"
+                                    data-inline="false"
+                            >
+                                <polygon
+                                        points="16 2 16 2 16 2 2.966 6.648 4.954 23.882 16 30 16 30 16 30 27.046 23.882 29.034 6.648 16 2"
+                                        style="fill: #dd0031"
+                                />
+                                <polygon
+                                        points="16 2 16 5.108 16 5.094 16 19.276 16 19.276 16 30 16 30 27.046 23.882 29.034 6.648 16 2"
+                                        style="fill: #c3002f"
+                                />
+                                <path
+                                        d="M16,5.094,7.852,23.364H10.89l1.638-4.088h6.916l1.638,4.088H24.12L16,5.094Zm2.38,11.662H13.62L16,11.03Z"
+                                        style="fill: #fff"
+                                />
+                            </svg>
+                        </div>
 
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="Bootstrap"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="0.81em"
-                    height="1em"
-                    style="
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="Bootstrap"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="0.81em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    viewBox="0 0 24 24"
-                    class="iconify"
-                    data-icon="logos: Bootstrap"
-                    data-inline="false"
-                  >
-                    <path
-                      d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z"
-                      fill="#8412FA"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="mysql"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1em"
-                    height="1em"
-                    style="
+                                    viewBox="0 0 24 24"
+                                    class="iconify"
+                                    data-icon="logos: Bootstrap"
+                                    data-inline="false"
+                            >
+                                <path
+                                        d="M11.77 11.24H9.956V8.202h2.152c1.17 0 1.834.522 1.834 1.466 0 1.008-.773 1.572-2.174 1.572zm.324 1.206H9.957v3.348h2.231c1.459 0 2.232-.585 2.232-1.685s-.795-1.663-2.326-1.663zM24 11.39v1.218c-1.128.108-1.817.944-2.226 2.268-.407 1.319-.463 2.937-.42 4.186.045 1.3-.968 2.5-2.337 2.5H4.985c-1.37 0-2.383-1.2-2.337-2.5.043-1.249-.013-2.867-.42-4.186-.41-1.324-1.1-2.16-2.228-2.268V11.39c1.128-.108 1.819-.944 2.227-2.268.408-1.319.464-2.937.42-4.186-.045-1.3.968-2.5 2.338-2.5h14.032c1.37 0 2.382 1.2 2.337 2.5-.043 1.249.013 2.867.42 4.186.409 1.324 1.098 2.16 2.226 2.268zm-7.927 2.817c0-1.354-.953-2.333-2.368-2.488v-.057c1.04-.169 1.856-1.135 1.856-2.213 0-1.537-1.213-2.538-3.062-2.538h-4.16v10.172h4.181c2.218 0 3.553-1.086 3.553-2.876z"
+                                        fill="#8412FA"
+                                />
+                            </svg>
+                        </div>
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="mysql"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 140 140"
-                    class="iconify"
-                    data-icon="vscode-icons:file-type-mysql"
-                    data-inline="false"
-                  >
-                    <path
-                      d="M-18.458 6.58h140v132.49H-18.458V6.58z"
-                      fill="none"
-                    />
-                    <path
-                      d="M40.054 113.583h-5.175c-.183-8.735-.687-16.947-1.511-24.642h-.046l-7.879 24.642h-3.94l-7.832-24.642h-.045c-.581 7.388-.947 15.602-1.099 24.642H7.81c.304-10.993 1.068-21.299 2.289-30.919h6.414l7.465 22.719h.046l7.511-22.719h6.137c1.344 11.268 2.138 21.575 2.382 30.919M62.497 90.771c-2.107 11.434-4.887 19.742-8.337 24.928-2.688 3.992-5.633 5.99-8.84 5.99-.855 0-1.91-.258-3.16-.77v-2.757c.611.088 1.328.138 2.152.138 1.498 0 2.702-.412 3.62-1.238 1.098-1.006 1.647-2.137 1.647-3.388 0-.858-.428-2.612-1.282-5.268L42.618 90.77h5.084l4.076 13.19c.916 2.995 1.298 5.086 1.145 6.277 2.229-5.953 3.786-12.444 4.673-19.468h4.901v.002z"
-                      fill="#5d87a1"
-                    />
-                    <path
-                      d="M131.382 113.583h-14.7V82.664h4.945v27.113h9.755v3.806zM112.834 114.33l-5.684-2.805c.504-.414.986-.862 1.42-1.381 2.416-2.838 3.621-7.035 3.621-12.594 0-10.229-4.014-15.346-12.045-15.346-3.938 0-7.01 1.298-9.207 3.895-2.414 2.84-3.619 7.022-3.619 12.551 0 5.435 1.068 9.422 3.205 11.951 1.955 2.291 4.902 3.438 8.843 3.438 1.47 0 2.819-.18 4.048-.543l7.4 4.308 2.018-3.474zm-18.413-6.934c-1.252-2.014-1.878-5.248-1.878-9.707 0-7.785 2.365-11.682 7.1-11.682 2.475 0 4.289.932 5.449 2.792 1.25 2.017 1.879 5.222 1.879 9.619 0 7.849-2.367 11.774-7.099 11.774-2.476.001-4.29-.928-5.451-2.796M85.165 105.013c0 2.622-.962 4.773-2.884 6.458-1.924 1.678-4.504 2.519-7.737 2.519-3.024 0-5.956-.966-8.794-2.888l1.329-2.655c2.442 1.223 4.653 1.831 6.638 1.831 1.863 0 3.319-.413 4.375-1.232 1.055-.822 1.684-1.975 1.684-3.433 0-1.837-1.281-3.407-3.631-4.722-2.167-1.19-6.501-3.678-6.501-3.678-2.349-1.712-3.525-3.55-3.525-6.578 0-2.506.877-4.529 2.632-6.068 1.757-1.545 4.024-2.315 6.803-2.315 2.87 0 5.479.769 7.829 2.291l-1.192 2.656c-2.01-.854-3.994-1.281-5.951-1.281-1.585 0-2.809.381-3.66 1.146-.858.762-1.387 1.737-1.387 2.933 0 1.828 1.308 3.418 3.722 4.759 2.196 1.192 6.638 3.723 6.638 3.723 2.409 1.709 3.612 3.53 3.612 6.534"
-                      fill="#f8981d"
-                    />
-                    <path
-                      d="M137.59 72.308c-2.99-.076-5.305.225-7.248 1.047-.561.224-1.453.224-1.531.933.303.3.338.784.601 1.198.448.747 1.229 1.752 1.942 2.276.783.6 1.569 1.194 2.393 1.717 1.453.899 3.1 1.422 4.516 2.318.825.521 1.645 1.195 2.471 1.756.406.299.666.784 1.193.971v-.114c-.264-.336-.339-.822-.598-1.196l-1.122-1.082c-1.084-1.456-2.431-2.727-3.884-3.771-1.196-.824-3.812-1.944-4.297-3.322l-.076-.076c.822-.077 1.797-.375 2.578-.604 1.271-.335 2.43-.259 3.734-.594.6-.15 1.195-.338 1.797-.523v-.337c-.676-.673-1.158-1.567-1.869-2.203-1.902-1.643-3.998-3.25-6.164-4.595-1.16-.749-2.652-1.231-3.887-1.868-.445-.225-1.195-.336-1.457-.71-.67-.822-1.047-1.904-1.533-2.877-1.08-2.053-2.129-4.331-3.061-6.502-.674-1.456-1.084-2.91-1.906-4.257-3.85-6.35-8.031-10.196-14.457-13.971-1.381-.786-3.024-1.121-4.779-1.533l-2.803-.148c-.598-.262-1.197-.973-1.719-1.309-2.132-1.344-7.621-4.257-9.189-.411-1.01 2.431 1.494 4.821 2.354 6.054.635.856 1.458 1.83 1.902 2.802.263.635.337 1.309.6 1.98.598 1.644 1.157 3.473 1.943 5.007.41.782.857 1.604 1.381 2.312.3.414.822.597.936 1.272-.521.744-.562 1.867-.861 2.801-1.344 4.221-.819 9.45 1.086 12.552.596.934 2.018 2.99 3.92 2.202 1.684-.672 1.311-2.801 1.795-4.668.111-.451.038-.747.262-1.043v.073c.521 1.045 1.047 2.052 1.53 3.1 1.159 1.829 3.177 3.735 4.858 5.002.895.676 1.604 1.832 2.725 2.245V74.1h-.074c-.227-.335-.559-.485-.857-.745-.674-.673-1.42-1.495-1.943-2.241-1.566-2.093-2.952-4.41-4.182-6.801-.602-1.16-1.121-2.428-1.606-3.586-.226-.447-.226-1.121-.601-1.346-.562.821-1.381 1.532-1.791 2.538-.711 1.609-.785 3.588-1.049 5.646l-.147.072c-1.19-.299-1.604-1.53-2.056-2.575-1.119-2.654-1.307-6.914-.336-9.976.26-.783 1.385-3.249.936-3.995-.225-.715-.973-1.122-1.383-1.685-.482-.708-1.01-1.604-1.346-2.39-.896-2.091-1.347-4.408-2.312-6.498-.451-.974-1.234-1.982-1.868-2.879-.712-1.008-1.495-1.718-2.058-2.913-.186-.411-.447-1.083-.148-1.53.073-.3.225-.412.523-.487.484-.409 1.867.111 2.352.336 1.385.56 2.543 1.083 3.699 1.867.523.375 1.084 1.085 1.755 1.272h.786c1.193.26 2.538.072 3.661.41 1.979.636 3.772 1.569 5.38 2.576 4.893 3.103 8.928 7.512 11.652 12.778.447.858.637 1.644 1.045 2.539.787 1.832 1.76 3.7 2.541 5.493.785 1.755 1.533 3.547 2.654 5.005.559.784 2.805 1.195 3.812 1.606.745.335 1.905.633 2.577 1.044 1.271.783 2.537 1.682 3.732 2.543.595.448 2.465 1.382 2.576 2.13M99.484 39.844a5.82 5.82 0 0 0-1.529.188v.075h.072c.301.597.824 1.011 1.197 1.532.301.599.562 1.193.857 1.791l.072-.074c.527-.373.789-.971.789-1.868-.227-.264-.262-.522-.451-.784-.22-.374-.705-.56-1.007-.86"
-                      fill="#5d87a1"
-                    />
-                    <path
-                      d="M141.148 113.578h.774v-3.788h-1.161l-.947 2.585-1.029-2.585h-1.118v3.788h.731v-2.882h.041l1.078 2.882h.557l1.074-2.882v2.882zm-6.235 0h.819v-3.146h1.072v-.643h-3.008v.643h1.115l.002 3.146z"
-                      fill="#f8981d"
-                    />
-                  </svg>
-                </div>
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 140 140"
+                                    class="iconify"
+                                    data-icon="vscode-icons:file-type-mysql"
+                                    data-inline="false"
+                            >
+                                <path
+                                        d="M-18.458 6.58h140v132.49H-18.458V6.58z"
+                                        fill="none"
+                                />
+                                <path
+                                        d="M40.054 113.583h-5.175c-.183-8.735-.687-16.947-1.511-24.642h-.046l-7.879 24.642h-3.94l-7.832-24.642h-.045c-.581 7.388-.947 15.602-1.099 24.642H7.81c.304-10.993 1.068-21.299 2.289-30.919h6.414l7.465 22.719h.046l7.511-22.719h6.137c1.344 11.268 2.138 21.575 2.382 30.919M62.497 90.771c-2.107 11.434-4.887 19.742-8.337 24.928-2.688 3.992-5.633 5.99-8.84 5.99-.855 0-1.91-.258-3.16-.77v-2.757c.611.088 1.328.138 2.152.138 1.498 0 2.702-.412 3.62-1.238 1.098-1.006 1.647-2.137 1.647-3.388 0-.858-.428-2.612-1.282-5.268L42.618 90.77h5.084l4.076 13.19c.916 2.995 1.298 5.086 1.145 6.277 2.229-5.953 3.786-12.444 4.673-19.468h4.901v.002z"
+                                        fill="#5d87a1"
+                                />
+                                <path
+                                        d="M131.382 113.583h-14.7V82.664h4.945v27.113h9.755v3.806zM112.834 114.33l-5.684-2.805c.504-.414.986-.862 1.42-1.381 2.416-2.838 3.621-7.035 3.621-12.594 0-10.229-4.014-15.346-12.045-15.346-3.938 0-7.01 1.298-9.207 3.895-2.414 2.84-3.619 7.022-3.619 12.551 0 5.435 1.068 9.422 3.205 11.951 1.955 2.291 4.902 3.438 8.843 3.438 1.47 0 2.819-.18 4.048-.543l7.4 4.308 2.018-3.474zm-18.413-6.934c-1.252-2.014-1.878-5.248-1.878-9.707 0-7.785 2.365-11.682 7.1-11.682 2.475 0 4.289.932 5.449 2.792 1.25 2.017 1.879 5.222 1.879 9.619 0 7.849-2.367 11.774-7.099 11.774-2.476.001-4.29-.928-5.451-2.796M85.165 105.013c0 2.622-.962 4.773-2.884 6.458-1.924 1.678-4.504 2.519-7.737 2.519-3.024 0-5.956-.966-8.794-2.888l1.329-2.655c2.442 1.223 4.653 1.831 6.638 1.831 1.863 0 3.319-.413 4.375-1.232 1.055-.822 1.684-1.975 1.684-3.433 0-1.837-1.281-3.407-3.631-4.722-2.167-1.19-6.501-3.678-6.501-3.678-2.349-1.712-3.525-3.55-3.525-6.578 0-2.506.877-4.529 2.632-6.068 1.757-1.545 4.024-2.315 6.803-2.315 2.87 0 5.479.769 7.829 2.291l-1.192 2.656c-2.01-.854-3.994-1.281-5.951-1.281-1.585 0-2.809.381-3.66 1.146-.858.762-1.387 1.737-1.387 2.933 0 1.828 1.308 3.418 3.722 4.759 2.196 1.192 6.638 3.723 6.638 3.723 2.409 1.709 3.612 3.53 3.612 6.534"
+                                        fill="#f8981d"
+                                />
+                                <path
+                                        d="M137.59 72.308c-2.99-.076-5.305.225-7.248 1.047-.561.224-1.453.224-1.531.933.303.3.338.784.601 1.198.448.747 1.229 1.752 1.942 2.276.783.6 1.569 1.194 2.393 1.717 1.453.899 3.1 1.422 4.516 2.318.825.521 1.645 1.195 2.471 1.756.406.299.666.784 1.193.971v-.114c-.264-.336-.339-.822-.598-1.196l-1.122-1.082c-1.084-1.456-2.431-2.727-3.884-3.771-1.196-.824-3.812-1.944-4.297-3.322l-.076-.076c.822-.077 1.797-.375 2.578-.604 1.271-.335 2.43-.259 3.734-.594.6-.15 1.195-.338 1.797-.523v-.337c-.676-.673-1.158-1.567-1.869-2.203-1.902-1.643-3.998-3.25-6.164-4.595-1.16-.749-2.652-1.231-3.887-1.868-.445-.225-1.195-.336-1.457-.71-.67-.822-1.047-1.904-1.533-2.877-1.08-2.053-2.129-4.331-3.061-6.502-.674-1.456-1.084-2.91-1.906-4.257-3.85-6.35-8.031-10.196-14.457-13.971-1.381-.786-3.024-1.121-4.779-1.533l-2.803-.148c-.598-.262-1.197-.973-1.719-1.309-2.132-1.344-7.621-4.257-9.189-.411-1.01 2.431 1.494 4.821 2.354 6.054.635.856 1.458 1.83 1.902 2.802.263.635.337 1.309.6 1.98.598 1.644 1.157 3.473 1.943 5.007.41.782.857 1.604 1.381 2.312.3.414.822.597.936 1.272-.521.744-.562 1.867-.861 2.801-1.344 4.221-.819 9.45 1.086 12.552.596.934 2.018 2.99 3.92 2.202 1.684-.672 1.311-2.801 1.795-4.668.111-.451.038-.747.262-1.043v.073c.521 1.045 1.047 2.052 1.53 3.1 1.159 1.829 3.177 3.735 4.858 5.002.895.676 1.604 1.832 2.725 2.245V74.1h-.074c-.227-.335-.559-.485-.857-.745-.674-.673-1.42-1.495-1.943-2.241-1.566-2.093-2.952-4.41-4.182-6.801-.602-1.16-1.121-2.428-1.606-3.586-.226-.447-.226-1.121-.601-1.346-.562.821-1.381 1.532-1.791 2.538-.711 1.609-.785 3.588-1.049 5.646l-.147.072c-1.19-.299-1.604-1.53-2.056-2.575-1.119-2.654-1.307-6.914-.336-9.976.26-.783 1.385-3.249.936-3.995-.225-.715-.973-1.122-1.383-1.685-.482-.708-1.01-1.604-1.346-2.39-.896-2.091-1.347-4.408-2.312-6.498-.451-.974-1.234-1.982-1.868-2.879-.712-1.008-1.495-1.718-2.058-2.913-.186-.411-.447-1.083-.148-1.53.073-.3.225-.412.523-.487.484-.409 1.867.111 2.352.336 1.385.56 2.543 1.083 3.699 1.867.523.375 1.084 1.085 1.755 1.272h.786c1.193.26 2.538.072 3.661.41 1.979.636 3.772 1.569 5.38 2.576 4.893 3.103 8.928 7.512 11.652 12.778.447.858.637 1.644 1.045 2.539.787 1.832 1.76 3.7 2.541 5.493.785 1.755 1.533 3.547 2.654 5.005.559.784 2.805 1.195 3.812 1.606.745.335 1.905.633 2.577 1.044 1.271.783 2.537 1.682 3.732 2.543.595.448 2.465 1.382 2.576 2.13M99.484 39.844a5.82 5.82 0 0 0-1.529.188v.075h.072c.301.597.824 1.011 1.197 1.532.301.599.562 1.193.857 1.791l.072-.074c.527-.373.789-.971.789-1.868-.227-.264-.262-.522-.451-.784-.22-.374-.705-.56-1.007-.86"
+                                        fill="#5d87a1"
+                                />
+                                <path
+                                        d="M141.148 113.578h.774v-3.788h-1.161l-.947 2.585-1.029-2.585h-1.118v3.788h.731v-2.882h.041l1.078 2.882h.557l1.074-2.882v2.882zm-6.235 0h.819v-3.146h1.072v-.643h-3.008v.643h1.115l.002 3.146z"
+                                        fill="#f8981d"
+                                />
+                            </svg>
+                        </div>
 
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="sql_database"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1em"
-                    height="1em"
-                    style="
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="sql_database"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 32 32"
-                    class="iconify"
-                    data-icon="vscode-icons:file-type-sql"
-                    data-inline="false"
-                  >
-                    <path
-                      d="M8.562 15.256A21.159 21.159 0 0 0 16 16.449a21.159 21.159 0 0 0 7.438-1.194c1.864-.727 2.525-1.535 2.525-2V9.7a10.357 10.357 0 0 1-2.084 1.076A22.293 22.293 0 0 1 16 12.078a22.36 22.36 0 0 1-7.879-1.3A10.28 10.28 0 0 1 6.037 9.7v3.55c0 .474.663 1.278 2.525 2.006z"
-                      fill="#ffda44"
-                    ></path>
-                    <path
-                      d="M8.562 21.961a15.611 15.611 0 0 0 2.6.741a24.9 24.9 0 0 0 4.838.453a24.9 24.9 0 0 0 4.838-.452a15.614 15.614 0 0 0 2.6-.741c1.864-.727 2.525-1.535 2.525-2v-3.39a10.706 10.706 0 0 1-1.692.825A23.49 23.49 0 0 1 16 18.74a23.49 23.49 0 0 1-8.271-1.348a10.829 10.829 0 0 1-1.692-.825v3.393c0 .466.663 1.271 2.525 2.001z"
-                      fill="#ffda44"
-                    ></path>
-                    <path
-                      d="M16 30c5.5 0 9.963-1.744 9.963-3.894v-2.837a10.5 10.5 0 0 1-1.535.762l-.157.063A23.487 23.487 0 0 1 16 25.445a23.422 23.422 0 0 1-8.271-1.351c-.054-.02-.106-.043-.157-.063a10.5 10.5 0 0 1-1.535-.762v2.837C6.037 28.256 10.5 30 16 30z"
-                      fill="#ffda44"
-                    ></path>
-                    <ellipse
-                      cx="16"
-                      cy="5.894"
-                      rx="9.963"
-                      ry="3.894"
-                      fill="#ffda44"
-                    ></ellipse>
-                  </svg>
-                </div>
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="npm"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1em"
-                    height="1em"
-                    style="
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 32 32"
+                                    class="iconify"
+                                    data-icon="vscode-icons:file-type-sql"
+                                    data-inline="false"
+                            >
+                                <path
+                                        d="M8.562 15.256A21.159 21.159 0 0 0 16 16.449a21.159 21.159 0 0 0 7.438-1.194c1.864-.727 2.525-1.535 2.525-2V9.7a10.357 10.357 0 0 1-2.084 1.076A22.293 22.293 0 0 1 16 12.078a22.36 22.36 0 0 1-7.879-1.3A10.28 10.28 0 0 1 6.037 9.7v3.55c0 .474.663 1.278 2.525 2.006z"
+                                        fill="#ffda44"
+                                ></path>
+                                <path
+                                        d="M8.562 21.961a15.611 15.611 0 0 0 2.6.741a24.9 24.9 0 0 0 4.838.453a24.9 24.9 0 0 0 4.838-.452a15.614 15.614 0 0 0 2.6-.741c1.864-.727 2.525-1.535 2.525-2v-3.39a10.706 10.706 0 0 1-1.692.825A23.49 23.49 0 0 1 16 18.74a23.49 23.49 0 0 1-8.271-1.348a10.829 10.829 0 0 1-1.692-.825v3.393c0 .466.663 1.271 2.525 2.001z"
+                                        fill="#ffda44"
+                                ></path>
+                                <path
+                                        d="M16 30c5.5 0 9.963-1.744 9.963-3.894v-2.837a10.5 10.5 0 0 1-1.535.762l-.157.063A23.487 23.487 0 0 1 16 25.445a23.422 23.422 0 0 1-8.271-1.351c-.054-.02-.106-.043-.157-.063a10.5 10.5 0 0 1-1.535-.762v2.837C6.037 28.256 10.5 30 16 30z"
+                                        fill="#ffda44"
+                                ></path>
+                                <ellipse
+                                        cx="16"
+                                        cy="5.894"
+                                        rx="9.963"
+                                        ry="3.894"
+                                        fill="#ffda44"
+                                ></ellipse>
+                            </svg>
+                        </div>
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="npm"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 32 32"
-                    class="iconify"
-                    data-icon="vscode-icons:file-type-npm"
-                    data-inline="false"
-                  >
-                    <path
-                      d="M2 10.555h28v9.335H16v1.556H9.778v-1.557H2zm1.556 7.779h3.111v-4.668h1.555v4.667h1.556v-6.222H3.556zm7.778-6.223v7.779h3.111v-1.556h3.111v-6.223zm3.111 1.556H16v3.112h-1.556zm4.667-1.556v6.223h3.111v-4.668h1.556v4.667h1.556v-4.667h1.556v4.667h1.556v-6.222z"
-                      fill="#cb3837"
-                    ></path>
-                  </svg>
-                </div>
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="php"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1em"
-                    height="1em"
-                    style="
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 32 32"
+                                    class="iconify"
+                                    data-icon="vscode-icons:file-type-npm"
+                                    data-inline="false"
+                            >
+                                <path
+                                        d="M2 10.555h28v9.335H16v1.556H9.778v-1.557H2zm1.556 7.779h3.111v-4.668h1.555v4.667h1.556v-6.222H3.556zm7.778-6.223v7.779h3.111v-1.556h3.111v-6.223zm3.111 1.556H16v3.112h-1.556zm4.667-1.556v6.223h3.111v-4.668h1.556v4.667h1.556v-4.667h1.556v4.667h1.556v-6.222z"
+                                        fill="#cb3837"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="php"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                    class="iconify"
-                    data-icon="vscode-icons:file-type-php"
-                    data-inline="false"
-                  >
-                    <path
-                      d="M5.265 13.38c.596 0 1.041-.112 1.323-.332.279-.218.471-.595.572-1.122.094-.492.058-.836-.106-1.021-.168-.189-.532-.286-1.082-.286h-.954L4.49 13.38h.775zm-3.117 3.401a.146.146 0 0 1-.114-.055.151.151 0 0 1-.031-.125l1.4-7.316a.15.15 0 0 1 .146-.122h3.017c.948 0 1.654.262 2.098.777.446.519.584 1.243.409 2.155a3.457 3.457 0 0 1-.363 1.025c-.17.309-.395.595-.668.85a2.923 2.923 0 0 1-1.099.669c-.395.131-.903.197-1.51.197H4.212l-.349 1.824a.15.15 0 0 1-.145.122h-1.57v-.001zm10.645-1.945a.144.144 0 0 1-.113-.055.154.154 0 0 1-.031-.124l.611-3.237c.058-.308.044-.529-.04-.622-.051-.057-.206-.153-.664-.153h-1.108l-.769 4.07a.148.148 0 0 1-.144.122H9a.144.144 0 0 1-.113-.055.154.154 0 0 1-.031-.124l1.382-7.316a.148.148 0 0 1 .144-.122h1.537c.044 0 .085.02.113.055.028.035.039.08.031.125l-.333 1.766h1.192c.908 0 1.523.165 1.882.503.365.346.479.898.339 1.642l-.643 3.405a.148.148 0 0 1-.144.122h-1.563v-.002zm5.177-1.456c.619 0 1.081-.112 1.374-.332.289-.218.489-.595.594-1.122.098-.492.06-.836-.111-1.021-.175-.189-.553-.286-1.124-.286h-.989l-.549 2.761h.805zm-3.236 3.401a.156.156 0 0 1-.119-.055.149.149 0 0 1-.032-.125l1.454-7.316a.153.153 0 0 1 .151-.122h3.133c.985 0 1.718.262 2.178.777.463.519.606 1.243.425 2.155-.074.371-.2.716-.377 1.024-.176.309-.41.595-.693.85-.34.311-.724.536-1.141.669-.411.131-.938.197-1.568.197h-1.269l-.362 1.823a.153.153 0 0 1-.151.122h-1.629v.001z"
-                      fill="#787CB4"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="symfony"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1.68em"
-                    height="1em"
-                    style="
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    class="iconify"
+                                    data-icon="vscode-icons:file-type-php"
+                                    data-inline="false"
+                            >
+                                <path
+                                        d="M5.265 13.38c.596 0 1.041-.112 1.323-.332.279-.218.471-.595.572-1.122.094-.492.058-.836-.106-1.021-.168-.189-.532-.286-1.082-.286h-.954L4.49 13.38h.775zm-3.117 3.401a.146.146 0 0 1-.114-.055.151.151 0 0 1-.031-.125l1.4-7.316a.15.15 0 0 1 .146-.122h3.017c.948 0 1.654.262 2.098.777.446.519.584 1.243.409 2.155a3.457 3.457 0 0 1-.363 1.025c-.17.309-.395.595-.668.85a2.923 2.923 0 0 1-1.099.669c-.395.131-.903.197-1.51.197H4.212l-.349 1.824a.15.15 0 0 1-.145.122h-1.57v-.001zm10.645-1.945a.144.144 0 0 1-.113-.055.154.154 0 0 1-.031-.124l.611-3.237c.058-.308.044-.529-.04-.622-.051-.057-.206-.153-.664-.153h-1.108l-.769 4.07a.148.148 0 0 1-.144.122H9a.144.144 0 0 1-.113-.055.154.154 0 0 1-.031-.124l1.382-7.316a.148.148 0 0 1 .144-.122h1.537c.044 0 .085.02.113.055.028.035.039.08.031.125l-.333 1.766h1.192c.908 0 1.523.165 1.882.503.365.346.479.898.339 1.642l-.643 3.405a.148.148 0 0 1-.144.122h-1.563v-.002zm5.177-1.456c.619 0 1.081-.112 1.374-.332.289-.218.489-.595.594-1.122.098-.492.06-.836-.111-1.021-.175-.189-.553-.286-1.124-.286h-.989l-.549 2.761h.805zm-3.236 3.401a.156.156 0 0 1-.119-.055.149.149 0 0 1-.032-.125l1.454-7.316a.153.153 0 0 1 .151-.122h3.133c.985 0 1.718.262 2.178.777.463.519.606 1.243.425 2.155-.074.371-.2.716-.377 1.024-.176.309-.41.595-.693.85-.34.311-.724.536-1.141.669-.411.131-.938.197-1.568.197h-1.269l-.362 1.823a.153.153 0 0 1-.151.122h-1.629v.001z"
+                                        fill="#787CB4"
+                                />
+                            </svg>
+                        </div>
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="symfony"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1.68em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                    class="iconify"
-                    data-icon="logos:symfony"
-                    data-inline="false"
-                  >
-                    <path
-                      d="M24 12c0 6.628-5.372 12-12 12S0 18.628 0 12 5.372 0 12 0s12 5.372 12 12zm-6.753-7.561c-1.22.042-2.283.715-3.075 1.644-.878 1.02-1.461 2.229-1.881 3.461-.753-.614-1.332-1.414-2.539-1.761-.966-.297-2.015-.105-2.813.514-.41.319-.71.757-.861 1.254-.36 1.176.381 2.225.719 2.6l.737.79c.15.154.519.56.339 1.138-.193.631-.951 1.037-1.732.799-.348-.106-.848-.366-.734-.73.045-.15.152-.263.21-.391.052-.11.077-.194.095-.242.141-.465-.053-1.07-.551-1.223-.465-.143-.939-.03-1.125.566-.209.68.117 1.913 1.86 2.449 2.04.628 3.765-.484 4.009-1.932.153-.907-.255-1.582-1.006-2.447l-.612-.677c-.371-.37-.497-1.002-.114-1.485.324-.409.785-.584 1.539-.379 1.103.3 1.594 1.063 2.412 1.68-.338 1.11-.56 2.223-.759 3.222l-.123.746c-.585 3.07-1.033 4.757-2.194 5.726-.234.166-.57.416-1.073.434-.266.005-.352-.176-.355-.257-.006-.184.15-.271.255-.353.154-.083.39-.224.372-.674-.016-.532-.456-.994-1.094-.973-.477.017-1.203.465-1.176 1.286.028.85.819 1.485 2.012 1.444.638-.021 2.062-.281 3.464-1.949 1.633-1.911 2.09-4.101 2.434-5.706l.383-2.116c.213.024.441.042.69.048 2.032.044 3.049-1.01 3.064-1.776.01-.464-.304-.921-.744-.91-.386.009-.718.278-.806.654-.094.428.646.813.068 1.189-.41.266-1.146.452-2.184.3l.188-1.042c.386-1.976.859-4.407 2.661-4.467.132-.007.612.006.623.323.003.105-.022.134-.147.375-.115.155-.174.345-.168.537.017.504.4.836.957.816.743-.023.955-.748.945-1.119-.032-.874-.952-1.424-2.17-1.386z"
-                    />
-                  </svg>
-                </div>
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="wordpress"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="0.73em"
-                    height="1em"
-                    style="
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    class="iconify"
+                                    data-icon="logos:symfony"
+                                    data-inline="false"
+                            >
+                                <path
+                                        d="M24 12c0 6.628-5.372 12-12 12S0 18.628 0 12 5.372 0 12 0s12 5.372 12 12zm-6.753-7.561c-1.22.042-2.283.715-3.075 1.644-.878 1.02-1.461 2.229-1.881 3.461-.753-.614-1.332-1.414-2.539-1.761-.966-.297-2.015-.105-2.813.514-.41.319-.71.757-.861 1.254-.36 1.176.381 2.225.719 2.6l.737.79c.15.154.519.56.339 1.138-.193.631-.951 1.037-1.732.799-.348-.106-.848-.366-.734-.73.045-.15.152-.263.21-.391.052-.11.077-.194.095-.242.141-.465-.053-1.07-.551-1.223-.465-.143-.939-.03-1.125.566-.209.68.117 1.913 1.86 2.449 2.04.628 3.765-.484 4.009-1.932.153-.907-.255-1.582-1.006-2.447l-.612-.677c-.371-.37-.497-1.002-.114-1.485.324-.409.785-.584 1.539-.379 1.103.3 1.594 1.063 2.412 1.68-.338 1.11-.56 2.223-.759 3.222l-.123.746c-.585 3.07-1.033 4.757-2.194 5.726-.234.166-.57.416-1.073.434-.266.005-.352-.176-.355-.257-.006-.184.15-.271.255-.353.154-.083.39-.224.372-.674-.016-.532-.456-.994-1.094-.973-.477.017-1.203.465-1.176 1.286.028.85.819 1.485 2.012 1.444.638-.021 2.062-.281 3.464-1.949 1.633-1.911 2.09-4.101 2.434-5.706l.383-2.116c.213.024.441.042.69.048 2.032.044 3.049-1.01 3.064-1.776.01-.464-.304-.921-.744-.91-.386.009-.718.278-.806.654-.094.428.646.813.068 1.189-.41.266-1.146.452-2.184.3l.188-1.042c.386-1.976.859-4.407 2.661-4.467.132-.007.612.006.623.323.003.105-.022.134-.147.375-.115.155-.174.345-.168.537.017.504.4.836.957.816.743-.023.955-.748.945-1.119-.032-.874-.952-1.424-2.17-1.386z"
+                                />
+                            </svg>
+                        </div>
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="wordpress"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="0.73em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 24 24"
-                    class="iconify"
-                    data-icon="logos:wordpress"
-                    data-inline="false"
-                  >
-                    <path
-                      fill="#21759B"
-                      fill-rule="evenodd"
-                      d="M0,11.99925 C0,16.749 2.76,20.85375 6.76275,22.7985 L1.03875,7.116 C0.3735,8.60775 0,10.25925 0,11.99925 M20.10015,11.394 C20.10015,9.9105 19.5669,8.88375 19.1109,8.085 C18.50265,7.09575 17.9319,6.25875 17.9319,5.27025 C17.9319,4.167 18.76815,3.14025 19.94715,3.14025 C20.0004,3.14025 20.05065,3.147 20.1024,3.15 C17.9679,1.194 15.12315,0 11.9994,0 C7.8069,0 4.11915,2.151 1.9734,5.40825 C2.2554,5.41725 2.5209,5.4225 2.7459,5.4225 C4.00065,5.4225 5.9439,5.27025 5.9439,5.27025 C6.5904,5.232 6.6669,6.183 6.0204,6.25875 C6.0204,6.25875 5.37015,6.33525 4.64715,6.3735 L9.01665,19.371 L11.64315,11.49525 L9.77415,6.3735 C9.12765,6.33525 8.5149,6.25875 8.5149,6.25875 C7.8684,6.2205 7.94415,5.232 8.5914,5.27025 C8.5914,5.27025 10.5729,5.4225 11.7519,5.4225 C13.00665,5.4225 14.9499,5.27025 14.9499,5.27025 C15.59715,5.232 15.6729,6.183 15.0264,6.25875 C15.0264,6.25875 14.3754,6.33525 13.65315,6.3735 L17.98965,19.272 L19.1874,15.273 C19.7049,13.6125 20.10015,12.42075 20.10015,11.394 M12.21015,13.04895 L8.6094,23.5107 C9.6849,23.8272 10.8219,23.9997 11.9994,23.9997 C13.39665,23.9997 14.7369,23.7582 15.98415,23.31945 C15.95265,23.2677 15.92265,23.2137 15.89865,23.15445 L12.21015,13.04895 Z M22.52925,6.242475 C22.581,6.624975 22.61025,7.034475 22.61025,7.476225 C22.61025,8.693475 22.38225,10.062225 21.6975,11.774475 L18.03225,22.371225 C21.6,20.291475 23.99925,16.425975 23.99925,11.999475 C23.99925,9.912975 23.466,7.951725 22.52925,6.242475"
-                    />
-                  </svg>
-                </div>
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 24 24"
+                                    class="iconify"
+                                    data-icon="logos:wordpress"
+                                    data-inline="false"
+                            >
+                                <path
+                                        fill="#21759B"
+                                        fill-rule="evenodd"
+                                        d="M0,11.99925 C0,16.749 2.76,20.85375 6.76275,22.7985 L1.03875,7.116 C0.3735,8.60775 0,10.25925 0,11.99925 M20.10015,11.394 C20.10015,9.9105 19.5669,8.88375 19.1109,8.085 C18.50265,7.09575 17.9319,6.25875 17.9319,5.27025 C17.9319,4.167 18.76815,3.14025 19.94715,3.14025 C20.0004,3.14025 20.05065,3.147 20.1024,3.15 C17.9679,1.194 15.12315,0 11.9994,0 C7.8069,0 4.11915,2.151 1.9734,5.40825 C2.2554,5.41725 2.5209,5.4225 2.7459,5.4225 C4.00065,5.4225 5.9439,5.27025 5.9439,5.27025 C6.5904,5.232 6.6669,6.183 6.0204,6.25875 C6.0204,6.25875 5.37015,6.33525 4.64715,6.3735 L9.01665,19.371 L11.64315,11.49525 L9.77415,6.3735 C9.12765,6.33525 8.5149,6.25875 8.5149,6.25875 C7.8684,6.2205 7.94415,5.232 8.5914,5.27025 C8.5914,5.27025 10.5729,5.4225 11.7519,5.4225 C13.00665,5.4225 14.9499,5.27025 14.9499,5.27025 C15.59715,5.232 15.6729,6.183 15.0264,6.25875 C15.0264,6.25875 14.3754,6.33525 13.65315,6.3735 L17.98965,19.272 L19.1874,15.273 C19.7049,13.6125 20.10015,12.42075 20.10015,11.394 M12.21015,13.04895 L8.6094,23.5107 C9.6849,23.8272 10.8219,23.9997 11.9994,23.9997 C13.39665,23.9997 14.7369,23.7582 15.98415,23.31945 C15.95265,23.2677 15.92265,23.2137 15.89865,23.15445 L12.21015,13.04895 Z M22.52925,6.242475 C22.581,6.624975 22.61025,7.034475 22.61025,7.476225 C22.61025,8.693475 22.38225,10.062225 21.6975,11.774475 L18.03225,22.371225 C21.6,20.291475 23.99925,16.425975 23.99925,11.999475 C23.99925,9.912975 23.466,7.951725 22.52925,6.242475"
+                                />
+                            </svg>
+                        </div>
 
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="git"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1em"
-                    height="1em"
-                    style="
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="git"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 256 256"
-                    class="iconify"
-                    data-icon="logos:git-icon"
-                    data-inline="false"
-                  >
-                    <path
-                      d="M251.172 116.594L139.4 4.828c-6.433-6.437-16.873-6.437-23.314 0l-23.21 23.21l29.443 29.443c6.842-2.312 14.688-.761 20.142 4.693c5.48 5.489 7.02 13.402 4.652 20.266l28.375 28.376c6.865-2.365 14.786-.835 20.269 4.657c7.663 7.66 7.663 20.075 0 27.74c-7.665 7.666-20.08 7.666-27.749 0c-5.764-5.77-7.188-14.235-4.27-21.336l-26.462-26.462l-.003 69.637a19.82 19.82 0 0 1 5.188 3.71c7.663 7.66 7.663 20.076 0 27.747c-7.665 7.662-20.086 7.662-27.74 0c-7.663-7.671-7.663-20.086 0-27.746a19.654 19.654 0 0 1 6.421-4.281V94.196a19.378 19.378 0 0 1-6.421-4.281c-5.806-5.798-7.202-14.317-4.227-21.446L81.47 39.442l-76.64 76.635c-6.44 6.443-6.44 16.884 0 23.322l111.774 111.768c6.435 6.438 16.873 6.438 23.316 0l111.251-111.249c6.438-6.44 6.438-16.887 0-23.324"
-                      fill="#DE4C36"
-                    ></path>
-                  </svg>
-                </div>
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="docker"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    xmlns:xlink="http://www.w3.org/1999/xlink"
-                    aria-hidden="true"
-                    focusable="false"
-                    width="1.39em"
-                    height="1em"
-                    style="
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 256 256"
+                                    class="iconify"
+                                    data-icon="logos:git-icon"
+                                    data-inline="false"
+                            >
+                                <path
+                                        d="M251.172 116.594L139.4 4.828c-6.433-6.437-16.873-6.437-23.314 0l-23.21 23.21l29.443 29.443c6.842-2.312 14.688-.761 20.142 4.693c5.48 5.489 7.02 13.402 4.652 20.266l28.375 28.376c6.865-2.365 14.786-.835 20.269 4.657c7.663 7.66 7.663 20.075 0 27.74c-7.665 7.666-20.08 7.666-27.749 0c-5.764-5.77-7.188-14.235-4.27-21.336l-26.462-26.462l-.003 69.637a19.82 19.82 0 0 1 5.188 3.71c7.663 7.66 7.663 20.076 0 27.747c-7.665 7.662-20.086 7.662-27.74 0c-7.663-7.671-7.663-20.086 0-27.746a19.654 19.654 0 0 1 6.421-4.281V94.196a19.378 19.378 0 0 1-6.421-4.281c-5.806-5.798-7.202-14.317-4.227-21.446L81.47 39.442l-76.64 76.635c-6.44 6.443-6.44 16.884 0 23.322l111.774 111.768c6.435 6.438 16.873 6.438 23.316 0l111.251-111.249c6.438-6.44 6.438-16.887 0-23.324"
+                                        fill="#DE4C36"
+                                ></path>
+                            </svg>
+                        </div>
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="docker"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    xmlns:xlink="http://www.w3.org/1999/xlink"
+                                    aria-hidden="true"
+                                    focusable="false"
+                                    width="1.39em"
+                                    height="1em"
+                                    style="
                       -ms-transform: rotate(360deg);
                       -webkit-transform: rotate(360deg);
                       transform: rotate(360deg);
                     "
-                    preserveAspectRatio="xMidYMid meet"
-                    viewBox="0 0 256 185"
-                    class="iconify"
-                    data-icon="logos:docker-icon"
-                    data-inline="false"
-                  >
-                    <path
-                      d="M250.716 70.497c-5.765-4-18.976-5.5-29.304-3.5c-1.2-10-6.725-18.749-16.333-26.499l-5.524-4l-3.844 5.75c-4.803 7.5-7.205 18-6.485 28c.24 3.499 1.441 9.749 5.044 15.249c-3.362 2-10.328 4.5-19.455 4.5H1.155l-.48 2c-1.682 9.999-1.682 41.248 18.014 65.247c14.892 18.249 36.99 27.499 66.053 27.499c62.93 0 109.528-30.25 131.386-84.997c8.647.25 27.142 0 36.51-18.75c.24-.5.72-1.5 2.401-5.249l.961-2l-5.284-3.25zM139.986 0h-26.42v24.999h26.42V0zm0 29.999h-26.42v24.999h26.42v-25zm-31.225 0h-26.42v24.999h26.42v-25zm-31.225 0H51.115v24.999h26.421v-25zM46.311 59.998H19.89v24.999H46.31v-25zm31.225 0H51.115v24.999h26.421v-25zm31.225 0h-26.42v24.999h26.42v-25zm31.226 0h-26.422v24.999h26.422v-25zm31.225 0H144.79v24.999h26.422v-25z"
-                      fill="#2396ED"
-                    ></path>
-                  </svg>
+                                    preserveAspectRatio="xMidYMid meet"
+                                    viewBox="0 0 256 185"
+                                    class="iconify"
+                                    data-icon="logos:docker-icon"
+                                    data-inline="false"
+                            >
+                                <path
+                                        d="M250.716 70.497c-5.765-4-18.976-5.5-29.304-3.5c-1.2-10-6.725-18.749-16.333-26.499l-5.524-4l-3.844 5.75c-4.803 7.5-7.205 18-6.485 28c.24 3.499 1.441 9.749 5.044 15.249c-3.362 2-10.328 4.5-19.455 4.5H1.155l-.48 2c-1.682 9.999-1.682 41.248 18.014 65.247c14.892 18.249 36.99 27.499 66.053 27.499c62.93 0 109.528-30.25 131.386-84.997c8.647.25 27.142 0 36.51-18.75c.24-.5.72-1.5 2.401-5.249l.961-2l-5.284-3.25zM139.986 0h-26.42v24.999h26.42V0zm0 29.999h-26.42v24.999h26.42v-25zm-31.225 0h-26.42v24.999h26.42v-25zm-31.225 0H51.115v24.999h26.421v-25zM46.311 59.998H19.89v24.999H46.31v-25zm31.225 0H51.115v24.999h26.421v-25zm31.225 0h-26.42v24.999h26.42v-25zm31.226 0h-26.422v24.999h26.422v-25zm31.225 0H144.79v24.999h26.422v-25z"
+                                        fill="#2396ED"
+                                ></path>
+                            </svg>
+                        </div>
+                    </div>
                 </div>
-              </div>
+                <div
+                        class="col-lg-6 d-none d-lg-block"
+                        data-aos="zoom-out"
+                        data-aos-delay="150"
+                >
+                    <img
+                            class="img-fluid my-0 img-hover img-rounded"
+                            src="img/techno.jpg"
+                            alt="technologies"
+                            width="550"
+                            height="309"
+                    />
+                </div>
             </div>
-            <div
-              class="col-lg-6 d-none d-lg-block"
-              data-aos="zoom-out"
-              data-aos-delay="150"
-            >
-              <img
-                class="img-fluid my-0 img-hover img-rounded"
-                src="img/techno.jpg"
-                alt="technologies"
-                width="550"
-                height="309"
-              />
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section id="design" class="pb-5">
+    <section id="design" class="pb-5">
         <div class="container">
-          <h4 class="my-4 title">Design</h4>
-          <div class="row mt-2">
-            <div
-              class="col-lg-6 d-none d-lg-block"
-              data-aos="zoom-out"
-              data-aos-delay="150"
-            >
-              <img
-                class="img-fluid my-0 img-hover img-rounded"
-                src="img/adobe.jpg"
-                alt="Adobe"
-                width="550"
-                height="380"
-              />
+            <h4 class="my-4 title">Design</h4>
+            <div class="row mt-2">
+                <div
+                        class="col-lg-6 d-none d-lg-block"
+                        data-aos="zoom-out"
+                        data-aos-delay="150"
+                >
+                    <img
+                            class="img-fluid my-0 img-hover img-rounded"
+                            src="img/adobe.jpg"
+                            alt="Adobe"
+                            width="550"
+                            height="380"
+                    />
+                </div>
+                <div
+                        class="col-lg-6 col-12 mt-4 d-flex flex-column justify-content-center align-items-center"
+                        data-aos="zoom-in-up"
+                        data-aos-delay="150"
+                >
+                    <div class="d-flex justify-content-center flex-wrap mb-5">
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="Photoshop"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="1rem"
+                                    height="1rem"
+                                    viewBox="0 0 44 44"
+                                    style="fill: #000000"
+                            >
+                                <path
+                                        fill="#03A9F4"
+                                        d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4V10z"
+                                ></path>
+                                <path
+                                        fill="#020F16"
+                                        d="M20.016,19.174h-2.002v4.434h1.973c0.547,0,0.97-0.179,1.27-0.537s0.449-0.879,0.449-1.563c0-0.71-0.153-1.274-0.459-1.694S20.53,19.181,20.016,19.174z"
+                                ></path>
+                                <path
+                                        fill="#020F16"
+                                        d="M9,9v30h30V9H9z M23.365,24.789C22.539,25.597,21.393,26,19.928,26h-1.914v5h-2.871V16.781h4.844c1.406,0,2.528,0.437,3.364,1.309s1.255,2.005,1.255,3.398S24.192,23.981,23.365,24.789z M32.682,30.336c-0.709,0.573-1.641,0.859-2.793,0.859c-0.775,0-1.459-0.151-2.051-0.454s-1.057-0.725-1.392-1.265s-0.503-1.123-0.503-1.748h2.627c0.014,0.481,0.125,0.843,0.337,1.084s0.558,0.361,1.04,0.361c0.742,0,1.113-0.335,1.113-1.006c0-0.234-0.112-0.451-0.337-0.649S30,27.052,29.225,26.713c-1.139-0.462-1.922-0.94-2.349-1.436s-0.64-1.11-0.64-1.846c0-0.925,0.334-1.688,1.001-2.29s1.552-0.903,2.651-0.903c1.158,0,2.086,0.3,2.783,0.898s1.045,1.403,1.045,2.412h-2.764c0-0.859-0.357-1.289-1.074-1.289c-0.293,0-0.533,0.091-0.723,0.273s-0.283,0.437-0.283,0.762c0,0.234,0.104,0.441,0.313,0.62s0.699,0.435,1.475,0.767c1.127,0.417,1.922,0.881,2.388,1.392s0.698,1.174,0.698,1.987C33.746,29.005,33.391,29.763,32.682,30.336z"
+                                ></path>
+                            </svg>
+                        </div>
+
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="Illustrator"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="1rem"
+                                    height="1rem"
+                                    viewBox="0 0 44 44"
+                                    style="fill: #000000"
+                            >
+                                <path
+                                        fill="#FF5722"
+                                        d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4V10z"
+                                ></path>
+                                <path
+                                        fill="#1C0802"
+                                        d="M9,9v30h30V9H9z M23.691,31l-0.762-2.91h-3.916L18.252,31h-3.037l4.443-14.219h2.627L26.758,31H23.691z M30.85,31h-2.773V20.434h2.773V31z M30.552,18.754c-0.271,0.28-0.636,0.42-1.099,0.42s-0.828-0.14-1.099-0.42s-0.405-0.632-0.405-1.055c0-0.43,0.137-0.781,0.41-1.055s0.639-0.41,1.094-0.41s0.82,0.137,1.094,0.41s0.41,0.625,0.41,1.055C30.957,18.122,30.822,18.474,30.552,18.754z"
+                                ></path>
+                                <path
+                                        fill="#1C0802"
+                                        d="M19.639 25.697L22.295 25.697 20.967 20.629z"
+                                ></path>
+                            </svg>
+                        </div>
+
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="XD"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="1rem"
+                                    height="1rem"
+                                    viewBox="0 0 44 44"
+                                    style="fill: #000000"
+                            >
+                                <path
+                                        fill="#ff41c8"
+                                        d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4 V10z"
+                                ></path>
+                                <path
+                                        fill="#16020b"
+                                        d="M9,9v30h30V9H9z M19.093,21.695l1.914-4.883h3.291l-3.34,7.051l3.418,7.168h-3.33l-1.953-4.971 l-1.943,4.971h-3.33l3.418-7.168l-3.35-7.051h3.291L19.093,21.695z M25.069,25.426c0-1.732,0.293-3.024,0.879-3.877 s1.438-1.279,2.559-1.279c0.813,0,1.491,0.352,2.031,1.055v-5.293h2.783v15h-2.51l-0.127-1.074c-0.566,0.847-1.296,1.27-2.188,1.27 c-1.106,0-1.951-0.423-2.534-1.27s-0.881-2.09-0.894-3.73V25.426z M27.843,26.119c0,1.042,0.11,1.77,0.332,2.183 s0.596,0.62,1.123,0.62c0.547,0,0.96-0.244,1.24-0.732v-4.824c-0.273-0.521-0.684-0.781-1.23-0.781 c-0.508,0-0.879,0.205-1.113,0.615s-0.352,1.14-0.352,2.188V26.119z"
+                                ></path>
+                            </svg>
+                        </div>
+
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="inDesign"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="1rem"
+                                    height="1rem"
+                                    viewBox="0 0 44 44"
+                                    style="fill: #000000"
+                            >
+                                <path
+                                        fill="#E91E63"
+                                        d="M5,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H9c-2.209,0-4-1.791-4-4V10z"
+                                ></path>
+                                <path
+                                        fill="#16020B"
+                                        d="M26.283,22.553c-0.508,0-0.879,0.205-1.113,0.615s-0.352,1.14-0.352,2.188v0.732c0,1.042,0.111,1.77,0.332,2.183c0.221,0.413,0.596,0.62,1.123,0.62c0.547,0,0.961-0.244,1.24-0.732v-4.824C27.24,22.813,26.83,22.553,26.283,22.553z"
+                                ></path>
+                                <path
+                                        fill="#16020B"
+                                        d="M8,9v30h30V9H8z M20.141,31H17.27V16.781h2.871V31z M30.297,31h-2.51l-0.127-1.074c-0.566,0.847-1.295,1.27-2.188,1.27c-1.107,0-1.952-0.423-2.534-1.27s-0.88-2.09-0.894-3.73v-0.801c0-1.731,0.293-3.024,0.879-3.877s1.439-1.279,2.559-1.279c0.814,0,1.49,0.352,2.031,1.055V16h2.783V31z"
+                                ></path>
+                            </svg>
+                        </div>
+
+                        <div
+                                class="icon icon-lg icon-shape shadow rounded-circle mb-5"
+                                id="AfterEffects"
+                        >
+                            <svg
+                                    xmlns="http://www.w3.org/2000/svg"
+                                    width="1rem"
+                                    height="1rem"
+                                    viewBox="3 0 42 42"
+                                    style="fill: #000000"
+                            >
+                                <path
+                                        fill="#b388ff"
+                                        d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4 V10z"
+                                ></path>
+                                <path fill="#170b40" d="M9,9v30h30V9H9z"></path>
+                                <path
+                                        fill="#b388ff"
+                                        d="M21.183 27.965h-4.555l-.866 2.846H13L17.694 17h2.407l4.719 13.81h-2.762L21.183 27.965zM17.33 25.66h3.152l-1.584-5.17L17.33 25.66zM30.146 31c-.728 0-1.379-.13-1.953-.389-.575-.259-1.062-.614-1.464-1.063-.402-.449-.707-.975-.918-1.579-.21-.604-.316-1.25-.316-1.94v-.37c0-.778.103-1.491.308-2.139.204-.648.496-1.206.875-1.674.377-.468.837-.833 1.376-1.096.54-.262 1.145-.394 1.814-.394.675 0 1.27.122 1.784.365.514.243.945.585 1.295 1.025.349.439.612.969.788 1.589S34 24.645 34 25.404v1.167h-5.966c.04.335.123.639.247.91.124.272.283.504.476.697s.42.343.679.451c.26.108.552.161.875.161.456 0 .878-.093 1.264-.28.387-.186.719-.476.996-.868l1.23 1.508c-.15.234-.338.462-.563.683-.225.221-.491.419-.797.593-.306.174-.65.313-1.035.417C31.022 30.948 30.603 31 30.146 31zM29.861 22.577c-.272 0-.509.052-.715.157-.205.104-.381.25-.528.436-.147.186-.267.409-.359.669-.092.259-.158.547-.198.863h3.481v-.218c-.006-.272-.042-.525-.109-.759-.066-.234-.167-.436-.303-.607-.136-.171-.309-.303-.519-.398C30.398 22.625 30.149 22.577 29.861 22.577z"
+                                ></path>
+                            </svg>
+                        </div>
+                    </div>
+                    <a href="#portfolio" class="fs-2 hvr-hang">
+                        Voir plus <i class="fa-solid fa-arrow-down"></i>
+                    </a>
+                </div>
             </div>
-            <div
-              class="col-lg-6 col-12 mt-4 d-flex flex-column justify-content-center align-items-center"
-              data-aos="zoom-in-up"
-              data-aos-delay="150"
-            >
-              <div class="d-flex justify-content-center flex-wrap mb-5">
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="Photoshop"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1rem"
-                    height="1rem"
-                    viewBox="0 0 44 44"
-                    style="fill: #000000"
-                  >
-                    <path
-                      fill="#03A9F4"
-                      d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4V10z"
-                    ></path>
-                    <path
-                      fill="#020F16"
-                      d="M20.016,19.174h-2.002v4.434h1.973c0.547,0,0.97-0.179,1.27-0.537s0.449-0.879,0.449-1.563c0-0.71-0.153-1.274-0.459-1.694S20.53,19.181,20.016,19.174z"
-                    ></path>
-                    <path
-                      fill="#020F16"
-                      d="M9,9v30h30V9H9z M23.365,24.789C22.539,25.597,21.393,26,19.928,26h-1.914v5h-2.871V16.781h4.844c1.406,0,2.528,0.437,3.364,1.309s1.255,2.005,1.255,3.398S24.192,23.981,23.365,24.789z M32.682,30.336c-0.709,0.573-1.641,0.859-2.793,0.859c-0.775,0-1.459-0.151-2.051-0.454s-1.057-0.725-1.392-1.265s-0.503-1.123-0.503-1.748h2.627c0.014,0.481,0.125,0.843,0.337,1.084s0.558,0.361,1.04,0.361c0.742,0,1.113-0.335,1.113-1.006c0-0.234-0.112-0.451-0.337-0.649S30,27.052,29.225,26.713c-1.139-0.462-1.922-0.94-2.349-1.436s-0.64-1.11-0.64-1.846c0-0.925,0.334-1.688,1.001-2.29s1.552-0.903,2.651-0.903c1.158,0,2.086,0.3,2.783,0.898s1.045,1.403,1.045,2.412h-2.764c0-0.859-0.357-1.289-1.074-1.289c-0.293,0-0.533,0.091-0.723,0.273s-0.283,0.437-0.283,0.762c0,0.234,0.104,0.441,0.313,0.62s0.699,0.435,1.475,0.767c1.127,0.417,1.922,0.881,2.388,1.392s0.698,1.174,0.698,1.987C33.746,29.005,33.391,29.763,32.682,30.336z"
-                    ></path>
-                  </svg>
-                </div>
-
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="Illustrator"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1rem"
-                    height="1rem"
-                    viewBox="0 0 44 44"
-                    style="fill: #000000"
-                  >
-                    <path
-                      fill="#FF5722"
-                      d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4V10z"
-                    ></path>
-                    <path
-                      fill="#1C0802"
-                      d="M9,9v30h30V9H9z M23.691,31l-0.762-2.91h-3.916L18.252,31h-3.037l4.443-14.219h2.627L26.758,31H23.691z M30.85,31h-2.773V20.434h2.773V31z M30.552,18.754c-0.271,0.28-0.636,0.42-1.099,0.42s-0.828-0.14-1.099-0.42s-0.405-0.632-0.405-1.055c0-0.43,0.137-0.781,0.41-1.055s0.639-0.41,1.094-0.41s0.82,0.137,1.094,0.41s0.41,0.625,0.41,1.055C30.957,18.122,30.822,18.474,30.552,18.754z"
-                    ></path>
-                    <path
-                      fill="#1C0802"
-                      d="M19.639 25.697L22.295 25.697 20.967 20.629z"
-                    ></path>
-                  </svg>
-                </div>
-
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="XD"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1rem"
-                    height="1rem"
-                    viewBox="0 0 44 44"
-                    style="fill: #000000"
-                  >
-                    <path
-                      fill="#ff41c8"
-                      d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4 V10z"
-                    ></path>
-                    <path
-                      fill="#16020b"
-                      d="M9,9v30h30V9H9z M19.093,21.695l1.914-4.883h3.291l-3.34,7.051l3.418,7.168h-3.33l-1.953-4.971 l-1.943,4.971h-3.33l3.418-7.168l-3.35-7.051h3.291L19.093,21.695z M25.069,25.426c0-1.732,0.293-3.024,0.879-3.877 s1.438-1.279,2.559-1.279c0.813,0,1.491,0.352,2.031,1.055v-5.293h2.783v15h-2.51l-0.127-1.074c-0.566,0.847-1.296,1.27-2.188,1.27 c-1.106,0-1.951-0.423-2.534-1.27s-0.881-2.09-0.894-3.73V25.426z M27.843,26.119c0,1.042,0.11,1.77,0.332,2.183 s0.596,0.62,1.123,0.62c0.547,0,0.96-0.244,1.24-0.732v-4.824c-0.273-0.521-0.684-0.781-1.23-0.781 c-0.508,0-0.879,0.205-1.113,0.615s-0.352,1.14-0.352,2.188V26.119z"
-                    ></path>
-                  </svg>
-                </div>
-
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="inDesign"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1rem"
-                    height="1rem"
-                    viewBox="0 0 44 44"
-                    style="fill: #000000"
-                  >
-                    <path
-                      fill="#E91E63"
-                      d="M5,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H9c-2.209,0-4-1.791-4-4V10z"
-                    ></path>
-                    <path
-                      fill="#16020B"
-                      d="M26.283,22.553c-0.508,0-0.879,0.205-1.113,0.615s-0.352,1.14-0.352,2.188v0.732c0,1.042,0.111,1.77,0.332,2.183c0.221,0.413,0.596,0.62,1.123,0.62c0.547,0,0.961-0.244,1.24-0.732v-4.824C27.24,22.813,26.83,22.553,26.283,22.553z"
-                    ></path>
-                    <path
-                      fill="#16020B"
-                      d="M8,9v30h30V9H8z M20.141,31H17.27V16.781h2.871V31z M30.297,31h-2.51l-0.127-1.074c-0.566,0.847-1.295,1.27-2.188,1.27c-1.107,0-1.952-0.423-2.534-1.27s-0.88-2.09-0.894-3.73v-0.801c0-1.731,0.293-3.024,0.879-3.877s1.439-1.279,2.559-1.279c0.814,0,1.49,0.352,2.031,1.055V16h2.783V31z"
-                    ></path>
-                  </svg>
-                </div>
-
-                <div
-                  class="icon icon-lg icon-shape shadow rounded-circle mb-5"
-                  id="AfterEffects"
-                >
-                  <svg
-                    xmlns="http://www.w3.org/2000/svg"
-                    width="1rem"
-                    height="1rem"
-                    viewBox="3 0 42 42"
-                    style="fill: #000000"
-                  >
-                    <path
-                      fill="#b388ff"
-                      d="M6,10c0-2.209,1.791-4,4-4h28c2.209,0,4,1.791,4,4v28c0,2.209-1.791,4-4,4H10c-2.209,0-4-1.791-4-4 V10z"
-                    ></path>
-                    <path fill="#170b40" d="M9,9v30h30V9H9z"></path>
-                    <path
-                      fill="#b388ff"
-                      d="M21.183 27.965h-4.555l-.866 2.846H13L17.694 17h2.407l4.719 13.81h-2.762L21.183 27.965zM17.33 25.66h3.152l-1.584-5.17L17.33 25.66zM30.146 31c-.728 0-1.379-.13-1.953-.389-.575-.259-1.062-.614-1.464-1.063-.402-.449-.707-.975-.918-1.579-.21-.604-.316-1.25-.316-1.94v-.37c0-.778.103-1.491.308-2.139.204-.648.496-1.206.875-1.674.377-.468.837-.833 1.376-1.096.54-.262 1.145-.394 1.814-.394.675 0 1.27.122 1.784.365.514.243.945.585 1.295 1.025.349.439.612.969.788 1.589S34 24.645 34 25.404v1.167h-5.966c.04.335.123.639.247.91.124.272.283.504.476.697s.42.343.679.451c.26.108.552.161.875.161.456 0 .878-.093 1.264-.28.387-.186.719-.476.996-.868l1.23 1.508c-.15.234-.338.462-.563.683-.225.221-.491.419-.797.593-.306.174-.65.313-1.035.417C31.022 30.948 30.603 31 30.146 31zM29.861 22.577c-.272 0-.509.052-.715.157-.205.104-.381.25-.528.436-.147.186-.267.409-.359.669-.092.259-.158.547-.198.863h3.481v-.218c-.006-.272-.042-.525-.109-.759-.066-.234-.167-.436-.303-.607-.136-.171-.309-.303-.519-.398C30.398 22.625 30.149 22.577 29.861 22.577z"
-                    ></path>
-                  </svg>
-                </div>
-              </div>
-              <a href="#portfolio" class="fs-2 hvr-hang">
-                Voir plus <i class="fa-solid fa-arrow-down"></i>
-              </a>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section id="project">
+    <section id="project">
         <div class="container py-4">
-          <h4 class="my-2 title">Projet en cours</h4>
-          <div class="row">
-            <div class="col-lg-6 col-12 my-2">
-              <p class="fw-bold">
-                Dans le cadre de la formation avec HumanBooster, je développe un
-                projet tout au long de l'année qui sera présenté à un jury de
-                professionnels du développement. Il s'agit d'un site e-commerce
-                "La Nîmes'alerie" qui est une animalerie en ligne. <br />
-                Il faudra pour cela :
-              </p>
-              <ul>
-                <li>Designer la maquette du site</li>
-                <li>Concevoir le site en html, css et Javascript</li>
-                <li>Concevoir la base de donnée</li>
-                <li>
-                  Créer un Dashboard permettant la visualisation d'informations,
-                  de données et de graphiques
-                </li>
-                <li>
-                  Permettre la gestion des produits, clients, commandes,
-                  catégories par le propriétaire
-                </li>
-                <li>
-                  Rendre possible pour un utilisateur de créer un compte et se
-                  connecter (authentification avec jeton et mots de passes
-                  hashés).
-                </li>
-                <li>
-                  Mettre en place tout le processus d'achat (panier,
-                  vérification du panier, ajout informations perso, ajout
-                  d’infos de livraison, sélection du mode de paiement...)
-                </li>
-                <li>
-                  Gérer la création de la commande en aval, et générer une
-                  facture
-                </li>
-              </ul>
+            <h4 class="my-2 title">Projet en cours</h4>
+            <div class="row">
+                <div class="col-lg-6 col-12 my-2">
+                    <p class="fw-bold">
+                        Dans le cadre de la formation avec HumanBooster, je développe un
+                        projet tout au long de l'année qui sera présenté à un jury de
+                        professionnels du développement. Il s'agit d'un site e-commerce
+                        "La Nîmes'alerie" qui est une animalerie en ligne. <br/>
+                        Il faudra pour cela :
+                    </p>
+                    <ul>
+                        <li>Designer la maquette du site</li>
+                        <li>Concevoir le site en html, css et Javascript</li>
+                        <li>Concevoir la base de donnée</li>
+                        <li>
+                            Créer un Dashboard permettant la visualisation d'informations,
+                            de données et de graphiques
+                        </li>
+                        <li>
+                            Permettre la gestion des produits, clients, commandes,
+                            catégories par le propriétaire
+                        </li>
+                        <li>
+                            Rendre possible pour un utilisateur de créer un compte et se
+                            connecter (authentification avec jeton et mots de passes
+                            hashés).
+                        </li>
+                        <li>
+                            Mettre en place tout le processus d'achat (panier,
+                            vérification du panier, ajout informations perso, ajout
+                            d’infos de livraison, sélection du mode de paiement...)
+                        </li>
+                        <li>
+                            Gérer la création de la commande en aval, et générer une
+                            facture
+                        </li>
+                    </ul>
+                </div>
+                <div
+                        class="col-lg-6 col-12 img-zoom"
+                        data-aos="zoom-out-down"
+                        data-aos-delay="100"
+                >
+                    <a href="https://quentinmir.github.io/HB-businessCase/">
+                        <img
+                                src="img/lanimesalerie.jpg"
+                                alt="Projet en cours"
+                                title="Acceder au site"
+                                width="550"
+                                height="329"
+                                class="img-rounded img-fluid mt-2"
+                        />
+                    </a>
+                    <p class="mt-5 text-center fw-bold">
+                        Cliquez sur l'image pour voir l'avancée du site
+                    </p>
+                </div>
             </div>
-            <div
-              class="col-lg-6 col-12 img-zoom"
-              data-aos="zoom-out-down"
-              data-aos-delay="100"
-            >
-              <a href="https://quentinmir.github.io/HB-businessCase/">
-                <img
-                  src="img/lanimesalerie.jpg"
-                  alt="Projet en cours"
-                  title="Acceder au site"
-                  width="550"
-                  height="329"
-                  class="img-rounded img-fluid mt-2"
-                />
-              </a>
-              <p class="mt-5 text-center fw-bold">
-                Cliquez sur l'image pour voir l'avancée du site
-              </p>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section id="reals">
+    <section id="reals">
         <div class="container py-4">
-          <h4 class="mt-2 mb-5 title">Quelques réalisations</h4>
+            <h4 class="mt-2 mb-5 title">Quelques réalisations</h4>
 
-          <div class="row text-center">
-            <div
-              class="col-lg-4 col-sm-6 col-12 my-2"
-              data-aos="zoom-out-right"
-            >
-              <a
-                href="https://quentinmir.github.io/ProductManager/"
-                target="_blank"
-                class="projet d-flex flex-column justify-content-center"
-              >
-                <h3 class="my-3">Gestion de produits d'une superette</h3>
-                <p class="my-3 px-4">
-                  Voici une application de gestion de produits. Identification
-                  avec token, elle permet d'ajouter, modifier ou supprimer des
-                  produits. Il est aussi possible d'afficher le détail des
-                  produits, ainsi que d'indiquer sa disponibilité ou non.
-                </p>
-              </a>
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >Angular</span
-              >
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >Nodejs</span
-              >
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >npm</span
-              >
-            </div>
-            <div
-              class="col-lg-4 col-sm-6 col-12 my-2"
-              data-aos="zoom-out-right"
-              data-aos-delay="100"
-            >
-              <a
-                href="https://quentinmir.github.io/small-projects/Agify-AJAX/"
-                target="_blank"
-                class="projet d-flex flex-column justify-content-center"
-              >
-                <h3 class="my-3">L'âge de votre prénom</h3>
-                <p class="my-3 px-4">
-                  Trouvez quel âge à votre prénom grâce a l'API Agify.
-                  Utilisation de la méthode AJAX.
-                </p>
-              </a>
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+            <div class="row text-center">
+                <div
+                        class="col-lg-4 col-sm-6 col-12 my-2"
+                        data-aos="zoom-out-right"
+                >
+                    <a
+                            href="https://quentinmir.github.io/ProductManager/"
+                            target="_blank"
+                            class="projet d-flex flex-column justify-content-center"
+                    >
+                        <h3 class="my-3">Gestion de produits d'une superette</h3>
+                        <p class="my-3 px-4">
+                            Voici une application de gestion de produits. Identification
+                            avec token, elle permet d'ajouter, modifier ou supprimer des
+                            produits. Il est aussi possible d'afficher le détail des
+                            produits, ainsi que d'indiquer sa disponibilité ou non.
+                        </p>
+                    </a>
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >Angular</span
+                    >
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >Nodejs</span
+                    >
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >npm</span
+                    >
+                </div>
+                <div
+                        class="col-lg-4 col-sm-6 col-12 my-2"
+                        data-aos="zoom-out-right"
+                        data-aos-delay="100"
+                >
+                    <a
+                            href="https://quentinmir.github.io/small-projects/Agify-AJAX/"
+                            target="_blank"
+                            class="projet d-flex flex-column justify-content-center"
+                    >
+                        <h3 class="my-3">L'âge de votre prénom</h3>
+                        <p class="my-3 px-4">
+                            Trouvez quel âge à votre prénom grâce a l'API Agify.
+                            Utilisation de la méthode AJAX.
+                        </p>
+                    </a>
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >Javascript</span
+                    >
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >AJAX</span
+                    >
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >JSON</span
+                    >
+                </div>
+                <div
+                        class="col-lg-4 col-sm-6 col-12 my-2"
+                        data-aos="zoom-out-right"
+                        data-aos-delay="200"
+                >
+                    <a
+                            href="https://quentinmir.github.io/small-projects/Dragon-attack/"
+                            target="_blank"
+                            class="projet d-flex flex-column justify-content-center"
+                    >
+                        <h3 class="my-3">Dragon attack !</h3>
+                        <p class="my-3 px-4">
+                            Création d'un petit jeu en Javascript. Choisissez votre
+                            niveau, votre épée et votre armure et partez au combat !
+                            <br/>
+                            Les points de vie, les dégats infligés et reçus sont générés
+                            aléatoirement entre deux valeurs en fonction de votre choix.
+                            La vitesse d'attaque (qui attaque en premier) a une
+                            probabilité de 1/2.
+                        </p>
+                    </a>
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >Algorithme</span
+                    ><span
+                        class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
                 >Javascript</span
-              >
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >AJAX</span
-              >
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                >
+                </div>
+                <div
+                        class="col-lg-4 col-sm-6 col-12 my-2"
+                        data-aos="zoom-out-right"
+                >
+                    <a
+                            href="https://quentinmir.github.io/small-projects/Carnet-adresse/"
+                            target="_blank"
+                            class="projet d-flex flex-column justify-content-center"
+                    >
+                        <h3 class="my-3">Carnet d'adresse</h3>
+                        <p class="my-3 px-4">
+                            Votre propre carnet d'adresse dans votre navigateur ! Ajoutez,
+                            supprimez ou modifiez des contacts. <br/>
+                            Les données sont conservées dans le local storage de votre
+                            navigateur.
+                        </p>
+                    </a>
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >Javascript</span
+                    ><span
+                        class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
                 >JSON</span
-              >
-            </div>
-            <div
-              class="col-lg-4 col-sm-6 col-12 my-2"
-              data-aos="zoom-out-right"
-              data-aos-delay="200"
-            >
-              <a
-                href="https://quentinmir.github.io/small-projects/Dragon-attack/"
-                target="_blank"
-                class="projet d-flex flex-column justify-content-center"
-              >
-                <h3 class="my-3">Dragon attack !</h3>
-                <p class="my-3 px-4">
-                  Création d'un petit jeu en Javascript. Choisissez votre
-                  niveau, votre épée et votre armure et partez au combat !
-                  <br />
-                  Les points de vie, les dégats infligés et reçus sont générés
-                  aléatoirement entre deux valeurs en fonction de votre choix.
-                  La vitesse d'attaque (qui attaque en premier) a une
-                  probabilité de 1/2.
-                </p>
-              </a>
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >Algorithme</span
-              ><span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >Javascript</span
-              >
-            </div>
-            <div
-              class="col-lg-4 col-sm-6 col-12 my-2"
-              data-aos="zoom-out-right"
-            >
-              <a
-                href="https://quentinmir.github.io/small-projects/Carnet-adresse/"
-                target="_blank"
-                class="projet d-flex flex-column justify-content-center"
-              >
-                <h3 class="my-3">Carnet d'adresse</h3>
-                <p class="my-3 px-4">
-                  Votre propre carnet d'adresse dans votre navigateur ! Ajoutez,
-                  supprimez ou modifiez des contacts. <br />
-                  Les données sont conservées dans le local storage de votre
-                  navigateur.
-                </p>
-              </a>
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >Javascript</span
-              ><span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >JSON</span
-              >
-            </div>
-            <div
-              class="col-lg-4 col-sm-6 col-12 my-2"
-              data-aos="zoom-out-right"
-              data-aos-delay="100"
-            >
-              <a
-                href="https://quentinmir.github.io/small-projects/Carrousel/"
-                target="_blank"
-                class="projet d-flex flex-column justify-content-center"
-              >
-                <h3 class="my-3">Carousel photo</h3>
-                <p class="my-3 px-4">
-                  Conception d'un carousel de photos cousu main.
-                </p>
-              </a>
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >Javascript</span
-              >
-            </div>
-            <div
-              class="col-lg-4 col-sm-6 col-12 my-2"
-              data-aos="zoom-out-right"
-              data-aos-delay="200"
-            >
-              <a
-                href="https://quentinmir.github.io/small-projects/Page-builder/"
-                target="_blank"
-                class="projet d-flex flex-column justify-content-center"
-              >
-                <h3 class="my-3">Page builder</h3>
-                <p class="my-3 px-4">
-                  Générez rapidement vos titres et vos paragraphes, puis
-                  exportez la structure HTML en 1 clic.
-                </p>
-              </a>
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >Javascript</span
-              >
-            </div>
+                >
+                </div>
+                <div
+                        class="col-lg-4 col-sm-6 col-12 my-2"
+                        data-aos="zoom-out-right"
+                        data-aos-delay="100"
+                >
+                    <a
+                            href="https://quentinmir.github.io/small-projects/Carrousel/"
+                            target="_blank"
+                            class="projet d-flex flex-column justify-content-center"
+                    >
+                        <h3 class="my-3">Carousel photo</h3>
+                        <p class="my-3 px-4">
+                            Conception d'un carousel de photos cousu main.
+                        </p>
+                    </a>
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >Javascript</span
+                    >
+                </div>
+                <div
+                        class="col-lg-4 col-sm-6 col-12 my-2"
+                        data-aos="zoom-out-right"
+                        data-aos-delay="200"
+                >
+                    <a
+                            href="https://quentinmir.github.io/small-projects/Page-builder/"
+                            target="_blank"
+                            class="projet d-flex flex-column justify-content-center"
+                    >
+                        <h3 class="my-3">Page builder</h3>
+                        <p class="my-3 px-4">
+                            Générez rapidement vos titres et vos paragraphes, puis
+                            exportez la structure HTML en 1 clic.
+                        </p>
+                    </a>
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >Javascript</span
+                    >
+                </div>
 
-            <div
-              class="col-lg-4 col-sm-6 col-12 my-2"
-              data-aos="zoom-out-right"
-            >
-              <a
-                href="https://quentinmir.github.io/small-projects/Liste-de-courses/"
-                target="_blank"
-                class="projet d-flex flex-column justify-content-center"
-              >
-                <h3 class="my-3">Liste de course</h3>
-                <p class="my-3 px-4">
-                  Concevez rapidement votre liste de courses. Ajoutez et
-                  supprimez autant d'éléments que vous le souhaitez.
-                </p>
-              </a>
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >Javascript</span
-              >
-            </div>
-            <div
-              class="col-lg-4 col-sm-6 col-12 my-2"
-              data-aos="zoom-out-right"
-              data-aos-delay="100"
-            >
-              <a
-                href="https://quentinmir.github.io/small-projects/S%C3%A9lecteur-de-Photos/"
-                target="_blank"
-                class="projet d-flex flex-column justify-content-center"
-              >
-                <h3 class="my-3">Sélecteur de photos</h3>
-                <p class="my-3 px-4">
-                  Permet simplement de sélectionner et compter les images parmi
-                  une galerie.
-                </p>
-              </a>
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >Javascript</span
-              >
-            </div>
+                <div
+                        class="col-lg-4 col-sm-6 col-12 my-2"
+                        data-aos="zoom-out-right"
+                >
+                    <a
+                            href="https://quentinmir.github.io/small-projects/Liste-de-courses/"
+                            target="_blank"
+                            class="projet d-flex flex-column justify-content-center"
+                    >
+                        <h3 class="my-3">Liste de course</h3>
+                        <p class="my-3 px-4">
+                            Concevez rapidement votre liste de courses. Ajoutez et
+                            supprimez autant d'éléments que vous le souhaitez.
+                        </p>
+                    </a>
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >Javascript</span
+                    >
+                </div>
+                <div
+                        class="col-lg-4 col-sm-6 col-12 my-2"
+                        data-aos="zoom-out-right"
+                        data-aos-delay="100"
+                >
+                    <a
+                            href="https://quentinmir.github.io/small-projects/S%C3%A9lecteur-de-Photos/"
+                            target="_blank"
+                            class="projet d-flex flex-column justify-content-center"
+                    >
+                        <h3 class="my-3">Sélecteur de photos</h3>
+                        <p class="my-3 px-4">
+                            Permet simplement de sélectionner et compter les images parmi
+                            une galerie.
+                        </p>
+                    </a>
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >Javascript</span
+                    >
+                </div>
 
-            <div
-              class="col-lg-4 col-sm-12 col-12 my-3"
-              data-aos="zoom-out-right"
-              data-aos-delay="200"
-            >
-              <a
-                href="https://quentinmir.github.io/small-projects/Juste-prix/"
-                target="_blank"
-                class="projet d-flex flex-column justify-content-center"
-              >
-                <h3 class="my-3">Juste prix</h3>
-                <p class="my-3 px-4">
-                  Le classique et indémodable juste prix: essayez de trouver le
-                  bon nombre entre 0 et 100 avec le moins d'essais possible
-                  (vous aurez des indices à chaque essais). <br />
-                  Bonne chance !
-                </p>
-              </a>
-              <span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
-                >Algorithme</span
-              ><span
-                class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                <div
+                        class="col-lg-4 col-sm-12 col-12 my-3"
+                        data-aos="zoom-out-right"
+                        data-aos-delay="200"
+                >
+                    <a
+                            href="https://quentinmir.github.io/small-projects/Juste-prix/"
+                            target="_blank"
+                            class="projet d-flex flex-column justify-content-center"
+                    >
+                        <h3 class="my-3">Juste prix</h3>
+                        <p class="my-3 px-4">
+                            Le classique et indémodable juste prix: essayez de trouver le
+                            bon nombre entre 0 et 100 avec le moins d'essais possible
+                            (vous aurez des indices à chaque essais). <br/>
+                            Bonne chance !
+                        </p>
+                    </a>
+                    <span
+                            class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
+                    >Algorithme</span
+                    ><span
+                        class="badge bg-light text-dark opacity-75 mt-2 mx-2 text-start"
                 >Javascript</span
-              >
+                >
+                </div>
             </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section id="portfolio">
+    <section id="portfolio">
         <div class="container py-4">
-          <h4 class="mt-2 mb-5 title">Portfolio design</h4>
-          <div class="row text-center">
-            <div
-              class="col-lg-3 col-sm-6 col-12 containerSub my-3 clic"
-              data-bs-toggle="modal"
-              data-bs-target="#adobeXD"
-              data-aos="fade-zoom-in"
-              data-aos-easing="ease-in-back"
-              data-aos-delay="50"
-              data-aos-offset="0"
-            >
-              <img
-                src="img/xd.jpg"
-                alt="Adobe XD"
-                title="Cliquer pour voir la galerie"
-                class="img-fluid img-rounded img-hover"
-                width="285"
-                height="285"
-              />
-              <h5 class="my-2 subtitle">Maquettes - Adobe XD</h5>
+            <h4 class="mt-2 mb-5 title">Portfolio design</h4>
+            <div class="row text-center">
+                <div
+                        class="col-lg-3 col-sm-6 col-12 containerSub my-3 clic"
+                        data-bs-toggle="modal"
+                        data-bs-target="#adobeXD"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="50"
+                        data-aos-offset="0"
+                >
+                    <img
+                            src="img/xd.jpg"
+                            alt="Adobe XD"
+                            title="Cliquer pour voir la galerie"
+                            class="img-fluid img-rounded img-hover"
+                            width="285"
+                            height="285"
+                    />
+                    <h5 class="my-2 subtitle">Maquettes - Adobe XD</h5>
+                </div>
+                <div
+                        class="col-lg-3 col-sm-6 col-12 containerSub my-3 clic"
+                        data-bs-toggle="modal"
+                        data-bs-target="#adobePS"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="100"
+                        data-aos-offset="0"
+                >
+                    <img
+                            src="img/ps.jpg"
+                            alt="Adobe Photoshop"
+                            title="Cliquer pour voir la galerie"
+                            class="img-fluid img-rounded img-hover"
+                            width="285"
+                            height="285"
+                    />
+                    <h5 class="my-2 subtitle">Photoshop</h5>
+                </div>
+                <div
+                        class="col-lg-3 col-sm-6 col-12 containerSub my-3 clic"
+                        data-bs-toggle="modal"
+                        data-bs-target="#adobeAI"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="150"
+                        data-aos-offset="0"
+                >
+                    <img
+                            src="img/ai.jpg"
+                            alt="Adobe Illustrator"
+                            title="Cliquer pour voir la galerie"
+                            class="img-fluid img-rounded img-hover"
+                            width="285"
+                            height="285"
+                    />
+                    <h5 class="my-2 subtitle">Illustrator</h5>
+                </div>
+                <div
+                        class="col-lg-3 col-sm-6 col-12 containerSub my-3 clic"
+                        data-bs-toggle="modal"
+                        data-bs-target="#adobeAE"
+                        data-aos="fade-zoom-in"
+                        data-aos-easing="ease-in-back"
+                        data-aos-delay="200"
+                        data-aos-offset="0"
+                >
+                    <img
+                            src="img/ae.jpg"
+                            alt="Adobe After Effects"
+                            title="Cliquer pour voir la galerie"
+                            class="img-fluid img-rounded img-hover"
+                            width="285"
+                            height="285"
+                    />
+                    <h5 class="my-2 subtitle">After Effects</h5>
+                </div>
             </div>
-            <div
-              class="col-lg-3 col-sm-6 col-12 containerSub my-3 clic"
-              data-bs-toggle="modal"
-              data-bs-target="#adobePS"
-              data-aos="fade-zoom-in"
-              data-aos-easing="ease-in-back"
-              data-aos-delay="100"
-              data-aos-offset="0"
-            >
-              <img
-                src="img/ps.jpg"
-                alt="Adobe Photoshop"
-                title="Cliquer pour voir la galerie"
-                class="img-fluid img-rounded img-hover"
-                width="285"
-                height="285"
-              />
-              <h5 class="my-2 subtitle">Photoshop</h5>
-            </div>
-            <div
-              class="col-lg-3 col-sm-6 col-12 containerSub my-3 clic"
-              data-bs-toggle="modal"
-              data-bs-target="#adobeAI"
-              data-aos="fade-zoom-in"
-              data-aos-easing="ease-in-back"
-              data-aos-delay="150"
-              data-aos-offset="0"
-            >
-              <img
-                src="img/ai.jpg"
-                alt="Adobe Illustrator"
-                title="Cliquer pour voir la galerie"
-                class="img-fluid img-rounded img-hover"
-                width="285"
-                height="285"
-              />
-              <h5 class="my-2 subtitle">Illustrator</h5>
-            </div>
-            <div
-              class="col-lg-3 col-sm-6 col-12 containerSub my-3 clic"
-              data-bs-toggle="modal"
-              data-bs-target="#adobeAE"
-              data-aos="fade-zoom-in"
-              data-aos-easing="ease-in-back"
-              data-aos-delay="200"
-              data-aos-offset="0"
-            >
-              <img
-                src="img/ae.jpg"
-                alt="Adobe After Effects"
-                title="Cliquer pour voir la galerie"
-                class="img-fluid img-rounded img-hover"
-                width="285"
-                height="285"
-              />
-              <h5 class="my-2 subtitle">After Effects</h5>
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <section id="contact">
+    <section id="contact">
         <div class="container py-3">
-          <h4 class="mt-2 mb-3 title">Me contacter</h4>
+            <h4 class="mt-2 mb-3 title">Me contacter</h4>
 
-          <div class="row text-center">
-            <div class="col-12 my-2">
-              <p>
-                Je suis actuellement à la recherche d'un stage en agence web en
-                qualité de développeur web - 2 mois de avril à juin 2022.
-                <br />
-                Si mon profil vous intéresse, n'hésitez à me le faire savoir.
-              </p>
-              <hr />
+            <div class="row text-center">
+                <div class="col-12 my-2">
+                    <p>
+                        Je suis actuellement à la recherche d'un stage en agence web en
+                        qualité de développeur web - 2 mois de avril à juin 2022.
+                        <br/>
+                        Si mon profil vous intéresse, n'hésitez à me le faire savoir.
+                    </p>
+                    <hr/>
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 mb-2">
+                    <a href="mailto:quentin.miramand@gmail.com" class="fs-5"
+                    >quentin.miramand@gmail.com</a
+                    >
+                </div>
+                <div class="col-lg-4 col-sm-6 col-12 mb-2">
+                    <a href="tel:0695697951" class="fs-5">06 95 69 79 51</a>
+                </div>
+                <div class="col-lg-4 col-12 mb-2">
+                    <a
+                            href="https://www.linkedin.com/in/quentin-miramand/"
+                            target="_blank"
+                            class="fs-5"
+                    >Linkedin</a
+                    >
+                </div>
             </div>
-            <div class="col-lg-4 col-sm-6 col-12 mb-2">
-              <a href="mailto:quentin.miramand@gmail.com" class="fs-5"
-                >quentin.miramand@gmail.com</a
-              >
-            </div>
-            <div class="col-lg-4 col-sm-6 col-12 mb-2">
-              <a href="tel:0695697951" class="fs-5">06 95 69 79 51</a>
-            </div>
-            <div class="col-lg-4 col-12 mb-2">
-              <a
-                href="https://www.linkedin.com/in/quentin-miramand/"
-                target="_blank"
-                class="fs-5"
-                >Linkedin</a
-              >
-            </div>
-          </div>
         </div>
-      </section>
+    </section>
 
-      <!-- bouton up -->
-      <div class="container">
+    <!-- bouton up -->
+    <div class="container">
         <div class="col-12">
-          <a href="#herobox">
-            <div class="text-end me-5">
-              <i
-                class="fs-5 border border-2 rounded border-white p-2 fas fa-chevron-up"
-              ></i>
-            </div>
-          </a>
-        </div>
-      </div>
-
-      <!-- #####################MODALS######################## -->
-
-      <!-- Modal adobe XD-->
-      <div
-        class="modal fade"
-        id="adobeXD"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="adobeXDLabel"
-        aria-hidden="true"
-      >
-        <div class="modal-dialog modal-lg">
-          <div class="modal-content modal-bg">
-            <div class="modal-header">
-              <h5 class="modal-title" id="adobeXDLabel">Maquettes de site</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
-            </div>
-            <div class="modal-body">
-              <div class="row text-center my-5">
-                <!-- <div class="col-lg-2"></div> -->
-                <div class="col-lg-6 col-sm-6 col-12">
-                  <a
-                    href="https://xd.adobe.com/view/c5406ff2-1c9a-48f5-b6c1-8aa7cdf9e50f-9013/"
-                    target="_blank"
-                    ><img
-                      src="img/lanimesalerie-port.jpg"
-                      alt="La Nîmes'alerie maquette"
-                      class="img-fluid img-rounded img-hover"
-                      title="Cliquer pour accéder à la maquette"
-                  /></a>
-                  <h6 class="px-5 mt-3">
-                    Maquette designée pour le projet que je réalise pour
-                    HumanBooster. Le design du site a évolué par rapport à cette
-                    maquette initiale.
-                  </h6>
+            <a href="#herobox">
+                <div class="text-end me-5">
+                    <i
+                            class="fs-5 border border-2 rounded border-white p-2 fas fa-chevron-up"
+                    ></i>
                 </div>
-                <div class="col-lg-6 col-sm-6 col-12">
-                  <a
-                    href="https://xd.adobe.com/view/8f6363d2-8455-4d2c-8182-94a6bd508000-da30/"
-                    target="_blank"
-                    ><img
-                      src="img/xd.jpg"
-                      alt="Maynooth Furniture maquette"
-                      class="img-fluid img-rounded img-hover"
-                      title="Cliquer pour accéder à la maquette"
-                  /></a>
-                  <h6 class="px-5 mt-3">
-                    Maquette conçue pour un site en ligne de vente de meuble.
-                    Contient la maquette du site web ainsi que l'application
-                    mobile.
-                  </h6>
+            </a>
+        </div>
+    </div>
+
+    <!-- #####################MODALS######################## -->
+
+    <!-- Modal adobe XD-->
+    <div
+            class="modal fade"
+            id="adobeXD"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="adobeXDLabel"
+            aria-hidden="true"
+    >
+        <div class="modal-dialog modal-lg">
+            <div class="modal-content modal-bg">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="adobeXDLabel">Maquettes de site</h5>
+                    <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                    ></button>
                 </div>
-                <!-- <div class="col-lg-2"></div> -->
-              </div>
+                <div class="modal-body">
+                    <div class="row text-center my-5">
+                        <!-- <div class="col-lg-2"></div> -->
+                        <div class="col-lg-6 col-sm-6 col-12">
+                            <a
+                                    href="https://xd.adobe.com/view/c5406ff2-1c9a-48f5-b6c1-8aa7cdf9e50f-9013/"
+                                    target="_blank"
+                            ><img
+                                    src="img/lanimesalerie-port.jpg"
+                                    alt="La Nîmes'alerie maquette"
+                                    class="img-fluid img-rounded img-hover"
+                                    title="Cliquer pour accéder à la maquette"
+                            /></a>
+                            <h6 class="px-5 mt-3">
+                                Maquette designée pour le projet que je réalise pour
+                                HumanBooster. Le design du site a évolué par rapport à cette
+                                maquette initiale.
+                            </h6>
+                        </div>
+                        <div class="col-lg-6 col-sm-6 col-12">
+                            <a
+                                    href="https://xd.adobe.com/view/8f6363d2-8455-4d2c-8182-94a6bd508000-da30/"
+                                    target="_blank"
+                            ><img
+                                    src="img/xd.jpg"
+                                    alt="Maynooth Furniture maquette"
+                                    class="img-fluid img-rounded img-hover"
+                                    title="Cliquer pour accéder à la maquette"
+                            /></a>
+                            <h6 class="px-5 mt-3">
+                                Maquette conçue pour un site en ligne de vente de meuble.
+                                Contient la maquette du site web ainsi que l'application
+                                mobile.
+                            </h6>
+                        </div>
+                        <!-- <div class="col-lg-2"></div> -->
+                    </div>
+                </div>
             </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Modal adobe Photoshop-->
-      <div
-        class="modal fade"
-        id="adobePS"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="adobePSLabel"
-        aria-hidden="true"
-      >
+    <!-- Modal adobe Photoshop-->
+    <div
+            class="modal fade"
+            id="adobePS"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="adobePSLabel"
+            aria-hidden="true"
+    >
         <div class="modal-dialog modal-lg">
-          <div class="modal-content modal-bg">
-            <div class="modal-header">
-              <h5 class="modal-title" id="adobePSLabel">Photoshop</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
+            <div class="modal-content modal-bg">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="adobePSLabel">Photoshop</h5>
+                    <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div
+                                id="inline-gallery-containerPS"
+                                class="inline-gallery-container"
+                        ></div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-              <div class="d-flex justify-content-center">
-                <div
-                  id="inline-gallery-containerPS"
-                  class="inline-gallery-container"
-                ></div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Modal adobe Illustrator-->
-      <div
-        class="modal fade"
-        id="adobeAI"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="adobeAILabel"
-        aria-hidden="true"
-      >
+    <!-- Modal adobe Illustrator-->
+    <div
+            class="modal fade"
+            id="adobeAI"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="adobeAILabel"
+            aria-hidden="true"
+    >
         <div class="modal-dialog modal-lg">
-          <div class="modal-content modal-bg">
-            <div class="modal-header">
-              <h5 class="modal-title" id="adobeAILabel">Illustrator</h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
+            <div class="modal-content modal-bg">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="adobeAILabel">Illustrator</h5>
+                    <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div
+                                id="inline-gallery-containerAI"
+                                class="inline-gallery-container"
+                        ></div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-              <div class="d-flex justify-content-center">
-                <div
-                  id="inline-gallery-containerAI"
-                  class="inline-gallery-container"
-                ></div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- Modal adobe AE-->
-      <div
-        class="modal fade"
-        id="adobeAE"
-        data-bs-backdrop="static"
-        data-bs-keyboard="false"
-        tabindex="-1"
-        aria-labelledby="adobeAELabel"
-        aria-hidden="true"
-      >
+    <!-- Modal adobe AE-->
+    <div
+            class="modal fade"
+            id="adobeAE"
+            data-bs-backdrop="static"
+            data-bs-keyboard="false"
+            tabindex="-1"
+            aria-labelledby="adobeAELabel"
+            aria-hidden="true"
+    >
         <div class="modal-dialog modal-lg">
-          <div class="modal-content modal-bg">
-            <div class="modal-header">
-              <h5 class="modal-title" id="adobeAELabel">
-                Effets spéciaux et animation
-              </h5>
-              <button
-                type="button"
-                class="btn-close"
-                data-bs-dismiss="modal"
-                aria-label="Close"
-              ></button>
+            <div class="modal-content modal-bg">
+                <div class="modal-header">
+                    <h5 class="modal-title" id="adobeAELabel">
+                        Effets spéciaux et animation
+                    </h5>
+                    <button
+                            type="button"
+                            class="btn-close"
+                            data-bs-dismiss="modal"
+                            aria-label="Close"
+                    ></button>
+                </div>
+                <div class="modal-body">
+                    <div class="d-flex justify-content-center">
+                        <div
+                                id="inline-gallery-containerAE"
+                                class="inline-gallery-container"
+                        ></div>
+                    </div>
+                </div>
             </div>
-            <div class="modal-body">
-              <div class="d-flex justify-content-center">
-                <div
-                  id="inline-gallery-containerAE"
-                  class="inline-gallery-container"
-                ></div>
-              </div>
-            </div>
-          </div>
         </div>
-      </div>
+    </div>
 
-      <!-- #####################MODALS######################## -->
-    </main>
+    <!-- #####################MODALS######################## -->
+</main>
 
-    <footer class="bg-black text-white">
-      <div class="container py-4">
+<footer class="bg-black text-white">
+    <div class="container py-4">
         <p class="text-end mb-0">2022 Quentin Miramand</p>
-      </div>
-    </footer>
+    </div>
+</footer>
 
-    <script
-      src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
-      integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
-      crossorigin="anonymous"
-    ></script>
+<script
+        src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p"
+        crossorigin="anonymous"
+></script>
 
-    <script src="lg/lightgallery.umd.js"></script>
+<script src="lg/lightgallery.umd.js"></script>
 
-    <script src="lg/lg-thumbnail.umd.js"></script>
+<script src="lg/lg-thumbnail.umd.js"></script>
 
-    <script src="lg/lg-zoom.umd.js"></script>
+<script src="lg/lg-zoom.umd.js"></script>
 
-    <script src="lg/lg-video.umd.js"></script>
+<script src="lg/lg-video.umd.js"></script>
 
-    <script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
 
-    <script src="js/main.js"></script>
-    <script src="js/galerie.js"></script>
-  </body>
+<script type="text/javascript" id="cookiebanner"
+        src="https://cdn.jsdelivr.net/gh/dobarkod/cookie-banner@1.2.2/dist/cookiebanner.min.js"
+        data-message="Ce site utilise des cookies pour mesurer le flux de visiteur. En poursuivant la navigation sur ce site vous acceptez l'utilisation des cookies."
+        data-linkmsg="En savoir plus"></script>
+
+<script src="js/main.js"></script>
+<script src="js/galerie.js"></script>
+</body>
 </html>
+
+
+
